@@ -1,4 +1,5 @@
 ---
+layout: single
 permalink: /cv/
 title: "CV"
 last_modified_at: 2020-12-4
