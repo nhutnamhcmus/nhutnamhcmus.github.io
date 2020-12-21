@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 permalink: /cv/
 title: "CV"
 last_modified_at: 2020-12-4
@@ -16,13 +16,14 @@ toc: true
 &nbsp;&nbsp;&nbsp;&nbsp; <a><img src="https://img.icons8.com/fluent/12/000000/email-open.png"/></a> lenam.fithcmus@gmail.com <br>
 &nbsp;&nbsp;&nbsp;&nbsp; <a><img src="https://img.icons8.com/fluent/12/000000/cell-phone.png"/></a>  (+84) 964 614 552 <br>
 &nbsp;&nbsp;&nbsp;&nbsp; <a><img src="https://img.icons8.com/fluent/12/000000/linkedin.png"/></a>lenhutnam298 <br>
-&nbsp;&nbsp;&nbsp;&nbsp; <a> <img src="https://img.icons8.com/color/12/000000/github--v1.png"/></a> github.com/nhutnamhcmus
+&nbsp;&nbsp;&nbsp;&nbsp; <a> <img src="https://img.icons8.com/color/12/000000/github--v1.png"/></a> github.com/nhutnamhcmus <br>
 
 ## &nbsp;&nbsp;&nbsp;&nbsp;Education
 
-&nbsp;&nbsp;&nbsp;&nbsp; - Ho Chi Minh Universityof Science (HCMUS), Ho Chi Minh City, Vietnam    08.2018 – Present <br>
-&nbsp;&nbsp;&nbsp;&nbsp; - Bachelor’sdegreein Information Technology (IT)<br>
-&nbsp;&nbsp;&nbsp;&nbsp; -Majorin Computer Science (Undergraduate) - Anticipated Graduation Date: 2022<br>
+&nbsp;&nbsp;&nbsp;&nbsp; - Ho Chi Minh University of Science (HCMUS), Ho Chi Minh City, Vietnam  <br>
+&nbsp;&nbsp;&nbsp;&nbsp; - 08.2018 – Present <br>
+&nbsp;&nbsp;&nbsp;&nbsp; - Bachelor’s degree in Information Technology (IT)<br>
+&nbsp;&nbsp;&nbsp;&nbsp; - Major in Computer Science (Undergraduate) - Anticipated Graduation Date: 2022<br>
 &nbsp;&nbsp;&nbsp;&nbsp; - GPA:7.88/10.0
 
 ## &nbsp;&nbsp;&nbsp;&nbsp; Personal Projects
