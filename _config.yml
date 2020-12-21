@@ -10,7 +10,7 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
+theme                    : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Nhut-Nam Le"
   avatar           : "https://avatars1.githubusercontent.com/u/52648432?s=400&u=f281f185a0b8d639d51c2baadea195c80d985f11&v=4" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Computer Science Student, C/C++ Developer, do Mathematics for fun."
+  bio              : "Computer Science Student |  C/C++ Enthusiast | Interested in Computer Vision | Do Mathematics for fun."
   location         : "Vietnam"
   email            : "lenam.fithcmus@gmail.com"
   links:
