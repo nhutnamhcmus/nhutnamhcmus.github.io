@@ -18,7 +18,10 @@ toc: true
 &nbsp;&nbsp;&nbsp;&nbsp; <a><img src="https://img.icons8.com/fluent/15/000000/linkedin.png"/></a> Linkedin: lenhutnam298 <br>
 &nbsp;&nbsp;&nbsp;&nbsp; <a> <img src="https://img.icons8.com/color/15/000000/github--v1.png"/></a> Github: nhutnamhcmus <br>
 &nbsp;&nbsp;&nbsp;&nbsp; <a> <img src="https://img.icons8.com/fluent/15/000000/twitter.png"/></a> Twitter: Namlee298 <br>
-&nbsp;&nbsp;&nbsp;&nbsp; <a> <img src="https://img.icons8.com/fluent/15/000000/facebook-new.png"/></a> Facebook: lenhutnam298<br>
+&nbsp;&nbsp;&nbsp;&nbsp; Sex: Male <br>
+&nbsp;&nbsp;&nbsp;&nbsp; Date of Birth: 08/29/2000 <br>
+&nbsp;&nbsp;&nbsp;&nbsp; Natonality: Vietnam <br>
+
 ## &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.icons8.com/fluent/48/000000/university.png"/>&nbsp;Education
 
 &nbsp;&nbsp;&nbsp;&nbsp; - Ho Chi Minh University of Science (HCMUS), Ho Chi Minh City, Vietnam  <br>
@@ -27,30 +30,39 @@ toc: true
 &nbsp;&nbsp;&nbsp;&nbsp; - Major in Computer Science (Undergraduate) - Anticipated Graduation Date: 2022<br>
 &nbsp;&nbsp;&nbsp;&nbsp; - GPA:7.88/10.0
 
-## &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.icons8.com/color/48/000000/project.png"/>&nbsp;Personal Projects
+## &nbsp;&nbsp;&nbsp;&nbsp; <img src="https://img.icons8.com/color/48/000000/project.png"/>&nbsp;Personal Projects
 
+## &nbsp;&nbsp;&nbsp;&nbsp; <img src="https://img.icons8.com/fluent/48/000000/development-skill.png"/>&nbsp;Skills
 
-## &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.icons8.com/fluent/48/000000/development-skill.png"/>&nbsp;Expertise
-- Data Structure- Algorithms
-    - Know and understand basic DSA.
-    - Design and Analysis Algorithm.
-    - Analysis Time complexity of Algorithm.
-- ProgrammingParadigms
-    - Understand basis concepts of Object - Oriented Programming, SOLID Principle.
-- Computer Vision (Main)
-    - Familiar with OpenCV C++/ Python 3.
-    - Ability to apply analytical and problem solving skills.
-    - Solid understanding of linear algebra, geometry, meshes, image processing.
-- Software Development
-## &nbsp;&nbsp;&nbsp;&nbsp; Skills
-- Programming Languages: Kotlin-Java; Python 3; C/C++.
-- Compiler:
-- Machine Learning / Deep Learning frameworks: Tensorflow, Pytorch.
-- Back-end: Java.
-- Type Theory:
-- Platform: Linux (Ubuntu, Arch Linux), Windows.
-- Development Tooling: Git for Version Control
-- IDE Tooling: Jetbrains IDE (Intellij, Pycharm), VS Code
+- Data structures & Algorithms:
+  - Understand and manipulate problem solving with basic data structures like linked lists, stacks, queues,
+trees, graphs, …
+  - Understand in basic level in analysis time complexity of algorithms, solving problems with searching,
+sorting.
+- Programming paradigms:
+  - Understand the basic concepts of Object-oriented programming, implement with Cpp
+  - Know about the principles of Object-oriented Design: SOLID
+- Programming languages:
+  - Familiar with Cpp for two years: consoles applications and solving problems
+  - Know and working with Java for one semester: Basic concept of Java programming include Java
+Core (Java 8), Design Patterns (Singleton, Proxy), Hibernate Framework.
+    - Project: Simple GUI English-Vietnamese Dictionary, Simple Chat-app with networking &
+multithreading
+  - Know but not strong with Python (Python 3)
+- Artificial Intelligence:
+  - Computer Vision: Know about Digital Image and Video processing with Open CV (familiar with Cpp,
+Python 3 but not strong)
+  - Natural Language Processing: Know about basis level in pre-processing text, working with Python 3
+(nltk)
+    - Project: English-Vietnamese Analysis Add-in for Microsoft Word (use both for offline and
+online version) write in JavaScript based-on Office Dev (MS)
+
+- Platform OS/ IDE/ Text editors:
+  - Platform Operating systems: Windows, Linux distribution (Ubuntu OS)
+  - IDE: Familiar with Visual Studio 17. Use Jetbrains IntelliJ/ Netbeans for Java
+  - Text editors: Visual Studio Code
+  - Version Control: Git (Github for two years)
+
 ## &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.icons8.com/color/48/000000/metamorphose.png"/>&nbsp;Miscellaneous
 
 ### Coding on Github
@@ -78,6 +90,7 @@ toc: true
 - <img src="https://www.datacamp.com/datacamp-sq.png?v=20102020" width="48"/>&nbsp;Datacamp: [nhutnamhcmus](https://www.datacamp.com/profile/nhutnamhcmus)
 - <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png" width="48"/>&nbsp;Hackerrank: [TichPhanSuyRong](https://www.hackerrank.com/TichPhanSuyRong)
 - <img src="https://shankxwebdev.com/wp-content/uploads/2016/03/Screen-Shot-2016-03-28-at-7.51.42-AM.png" width="48"/>&nbsp;Codewars ![](https://www.codewars.com/users/TichPhanSuyRong/badges/large)
+- <img src="https://projecteuler.net/profile/tichphansuyrong.png"/>&nbsp;
 
 ### Foreign Language
 

@@ -105,18 +105,21 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
+    - label: "Linkedin In"
+      icon: "fab fa-linkedin-in"
+      url: "https://www.linkedin.com/in/lenhutnam298/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/Namlee298"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://www.facebook.com/lenhutnam298"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/nhutnamhcmus"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/tichphan_suyrong/"
 
 # Site Footer
 footer:
