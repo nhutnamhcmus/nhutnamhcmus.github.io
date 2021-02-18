@@ -28,7 +28,7 @@ toc: true
 &nbsp;&nbsp;&nbsp;&nbsp; - 08.2018 – Present <br>
 &nbsp;&nbsp;&nbsp;&nbsp; - Bachelor’s degree in Information Technology (IT)<br>
 &nbsp;&nbsp;&nbsp;&nbsp; - Major in Computer Science (Undergraduate) - Anticipated Graduation Date: 2022<br>
-&nbsp;&nbsp;&nbsp;&nbsp; - GPA:7.88/10.0
+&nbsp;&nbsp;&nbsp;&nbsp; - GPA:7.88/10.0 [Full transcript xls (UnOfficial)](https://docs.google.com/spreadsheets/d/1FDcLKBirzvPa8HZ45CL503gR6Foo6oPgFnJDpbr1sdg/edit?usp=sharing)
 
 ## &nbsp;&nbsp;&nbsp;&nbsp; <img src="https://img.icons8.com/color/48/000000/project.png"/>&nbsp;Personal Projects
 

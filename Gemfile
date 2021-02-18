@@ -16,6 +16,8 @@ source "https://rubygems.org"
 gem "jekyll"
 gem "minimal-mistakes-jekyll"
 gem "jekyll-seo-tag"
+gem 'wdm', '>= 0.1.0'
+gem "webrick"
 
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"
@@ -27,3 +29,4 @@ gem "jekyll-seo-tag"
 # If you have any other plugins, put them here!
 group :jekyll_plugins do
 end
+gem "jekyll-sitemap", "~> 1.4"

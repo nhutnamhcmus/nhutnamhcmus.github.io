@@ -2,6 +2,8 @@
 main:
   - title: "About/Contact"
     url: /about/
+  - title: "Machine learning"
+    url: /machine-learning/
   - title: "Programming"
     url: /programming/
   - title: "Math"

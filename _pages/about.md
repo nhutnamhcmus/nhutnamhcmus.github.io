@@ -18,15 +18,15 @@ This is a site which has a template fork from minimal mistake, just a static git
 
 Elsewhere on the web, you can me on:
 
-<img src="https://img.icons8.com/color/12/000000/github--v1.png"/> Github: nhutnamhcmus
+<img src="https://img.icons8.com/color/30/000000/github--v1.png"/> Github: [nhutnamhcmus](https://github.com/nhutnamhcmus)
 
-<img src="https://img.icons8.com/color/12/000000/stackoverflow.png"/> Stackoverflow
+<img src="https://img.icons8.com/color/30/000000/stackoverflow.png"/> Stackoverflow: [nhut-nam-le](https://stackoverflow.com/users/14214183/nhut-nam-le)
 
-<img src="https://img.icons8.com/fluent/12/000000/instagram-new.png"/> Instagram:
+<img src="https://img.icons8.com/fluent/30/000000/instagram-new.png"/> Instagram: [tichphan_suyrong](https://www.instagram.com/tichphan_suyrong/)
 
-<img src="https://img.icons8.com/fluent/12/000000/twitter.png"/> Twitter: 
+<img src="https://img.icons8.com/fluent/30/000000/twitter.png"/> Twitter: [Namlee298](https://twitter.com/Namlee298)
 
-<img src="https://img.icons8.com/fluent/12/000000/linkedin.png"/> LinkedIn:
+<img src="https://img.icons8.com/fluent/30/000000/linkedin.png"/> LinkedIn: [lenhutnam298](https://www.linkedin.com/in/lenhutnam298/)
 
-<img src="https://img.icons8.com/color/12/000000/soundcloud.png"/> Soundcloud:
+<img src="https://img.icons8.com/color/30/000000/soundcloud.png"/> Soundcloud: [lenhutnam298](https://soundcloud.com/lenhutnam298)
 
