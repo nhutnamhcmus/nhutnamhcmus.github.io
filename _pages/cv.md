@@ -8,7 +8,7 @@ toc: true
 
 <div> 
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="left" width="250" src="./../assets/img/avt/nhutnam_le.png"/>
+  <img align="left" width="200" src="./../assets/img/avt/nhutnam_le.png"/>
 </a>
 </div>
 
@@ -18,8 +18,6 @@ toc: true
 &nbsp;&nbsp;&nbsp;&nbsp; <a><img src="https://img.icons8.com/fluent/15/000000/linkedin.png"/></a> Linkedin: lenhutnam298 <br>
 &nbsp;&nbsp;&nbsp;&nbsp; <a> <img src="https://img.icons8.com/color/15/000000/github--v1.png"/></a> Github: nhutnamhcmus <br>
 &nbsp;&nbsp;&nbsp;&nbsp; <a> <img src="https://img.icons8.com/fluent/15/000000/twitter.png"/></a> Twitter: Namlee298 <br>
-&nbsp;&nbsp;&nbsp;&nbsp; Sex: Male <br>
-&nbsp;&nbsp;&nbsp;&nbsp; Date of Birth: 08/29/2000 <br>
 &nbsp;&nbsp;&nbsp;&nbsp; Natonality: Vietnam <br>
 
 ## &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.icons8.com/fluent/48/000000/university.png"/>&nbsp;Education
@@ -28,7 +26,9 @@ toc: true
 &nbsp;&nbsp;&nbsp;&nbsp; - 08.2018 – Present <br>
 &nbsp;&nbsp;&nbsp;&nbsp; - Bachelor’s degree in Information Technology (IT)<br>
 &nbsp;&nbsp;&nbsp;&nbsp; - Major in Computer Science (Undergraduate) - Anticipated Graduation Date: 2022<br>
-&nbsp;&nbsp;&nbsp;&nbsp; - GPA:7.88/10.0 [Full transcript xls (UnOfficial)](https://docs.google.com/spreadsheets/d/1FDcLKBirzvPa8HZ45CL503gR6Foo6oPgFnJDpbr1sdg/edit?usp=sharing)
+&nbsp;&nbsp;&nbsp;&nbsp; - GPA:7.88/10.0 <br>
+[Full transcript xls (UnOfficial)](https://docs.google.com/spreadsheets/d/1FDcLKBirzvPa8HZ45CL503gR6Foo6oPgFnJDpbr1sdg/edit?usp=sharing)<br>
+[Full printed transcript from HCMUS Portal - Updated 4/3/2021](https://drive.google.com/file/d/1ZQqQx9hlNLuATyg7LpMyxwZGjyyLf5ax/view?usp=sharing) 
 
 ## &nbsp;&nbsp;&nbsp;&nbsp; <img src="https://img.icons8.com/color/48/000000/project.png"/>&nbsp;Personal Projects
 
@@ -65,7 +65,7 @@ online version) write in JavaScript based-on Office Dev (MS)
 
 ## &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.icons8.com/color/48/000000/metamorphose.png"/>&nbsp;Miscellaneous
 
-### Coding on Github
+### <img src="https://img.icons8.com/color/48/000000/github-2.png"/> Coding on Github
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="left" src="https://raw.githubusercontent.com/nhutnamhcmus/nhutnamhcmus/master/profile-summary-card-output/github/0-profile-details.svg"/>
 </a>
@@ -85,13 +85,13 @@ online version) write in JavaScript based-on Office Dev (MS)
 </a>
 </div>
 
-### Coding Profile
+### <img src="https://img.icons8.com/bubbles/48/000000/code.png"/>Coding Profile
 
 - <img src="https://www.datacamp.com/datacamp-sq.png?v=20102020" width="48"/>&nbsp;Datacamp: [nhutnamhcmus](https://www.datacamp.com/profile/nhutnamhcmus)
 - <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png" width="48"/>&nbsp;Hackerrank: [TichPhanSuyRong](https://www.hackerrank.com/TichPhanSuyRong)
 - <img src="https://shankxwebdev.com/wp-content/uploads/2016/03/Screen-Shot-2016-03-28-at-7.51.42-AM.png" width="48"/>&nbsp;Codewars ![](https://www.codewars.com/users/TichPhanSuyRong/badges/large)
 - <img src="https://projecteuler.net/profile/tichphansuyrong.png"/>&nbsp;
 
-### Foreign Language
+### <img src="https://img.icons8.com/cute-clipart/48/000000/language.png"/>Foreign Language
 
 
