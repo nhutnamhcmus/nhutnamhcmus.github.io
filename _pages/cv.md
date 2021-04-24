@@ -31,6 +31,35 @@ toc: true
 [Full printed transcript from HCMUS Portal - Updated 4/3/2021](https://drive.google.com/file/d/1ZQqQx9hlNLuATyg7LpMyxwZGjyyLf5ax/view?usp=sharing) 
 
 ## &nbsp;&nbsp;&nbsp;&nbsp; <img src="https://img.icons8.com/color/48/000000/project.png"/>&nbsp;Personal Projects
+- [Intro NLP Final Project](https://github.com/nhutnamhcmus/nlp-word-addin)
+  - Description: Build an simple Add-in for Microsoft Word to tokenization and statistical words.
+  - Programming language: JavaScripts
+  - Framework: Office Add-ins for MS Office
+
+- [Analysis for National High School Graduation Exam 2018](https://github.com/nhutnamhcmus/thpt-qg-2018)
+  - Description: Collecting and visualization data to investigate information in data, find cheating in exam at Ha Giang in 2018.
+  - Programming language: Python 3/ Jupyter Notebook
+
+- [Wine Dataset Classification using Linear Discriminant Analysis](https://github.com/nhutnamhcmus/wine-linear-discriminant-analysis)
+  - Description: Implementation Linear Discriminant Analysis on Wine Dataset.
+  - Programming language: Python 3/ Jupyter Notebook
+
+- [Simple Java chat application](https://github.com/nhutnamhcmus/Chat-App)
+  - Description: Desktop chat app using Java Swing, Networking, Multi-threading. This is Final Project for Topics in Java Application Course HCMUS.
+  - Programming language: Java 
+  - Framework: Hibernate
+
+- [Simple English-Vietnamese Dictionary application](https://github.com/nhutnamhcmus/Dictionary)
+  - Description: Project midtern of Topics in Java Application Course HCMUS, learning about some important topic Generic Programming, Collections & Swing in Java with using Jetbrains Intellij.
+  - Programming language: Java 
+
+- [Simple web application visualize Minumum Edit Distance algorithm](https://github.com/nhutnamhcmus/simple-med)
+  - Description: Simple web application using HTML, CSS and JavaScripts to visualize Minumum Edit Distance algorithm.
+  - Programming language: JavaScripts 
+
+- [Basic implement some traditional concepts in Digital Image Processing](https://github.com/nhutnamhcmus/dip)
+  - Description: Basic implement some traditional concepts in Digital Image Processing such as 1D, 2D Convolutional, Color Transformation, Geometry Transformation, Edge Detection using Sobel, Prewitt, Laplace window, Filter image in spatial domain.
+  - Programming language: Python 3 (using Jupyter Notebook), C++
 
 ## &nbsp;&nbsp;&nbsp;&nbsp; <img src="https://img.icons8.com/fluent/48/000000/development-skill.png"/>&nbsp;Skills
 
