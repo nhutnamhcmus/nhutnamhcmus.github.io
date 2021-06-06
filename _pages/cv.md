@@ -8,7 +8,7 @@ toc: true
 
 <div> 
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="left" width="200" src="./../assets/img/avt/nhutnam_le.png"/>
+  <img align="left" width="200" src="https://avatars.githubusercontent.com/u/52648432?v=4"/>
 </a>
 </div>
 
