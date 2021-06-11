@@ -4,10 +4,14 @@ main:
     url: /about/
   - title: "Machine learning"
     url: /machine-learning/
-  - title: "Programming"
-    url: /programming/
+  - title: "NLP"
+    url: /nlp/
+  - title: "Visual Data Science"
+    url: /vds/
   - title: "Math"
     url: /math/
+  - title: "Programming"
+    url: /programming/
   - title: "Portfolio"
     url: /portfolio/
   - title: "CV"

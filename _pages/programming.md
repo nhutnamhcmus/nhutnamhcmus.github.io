@@ -6,11 +6,7 @@ last_modified_at: 2020-12-4
 toc: true
 ---
 
-## CPP Programming
+# Cấu trúc dữ liệu
 
-## Python Programming
-
-## Quantum Programming
-
-## Functional Programming
+# Giải thuật
 
