@@ -46,22 +46,26 @@ Email report: lenam.fithcmus@gmail.com/ namele1232000@gmail.com
 
 ## Statistical Learning - Học thống kê
 - Lab: Introduction to R
+
 ## Linear Regression - Hồi quy tuyến tính
 - Mô hình hồi quy tuyến tính đơn giản
 - Mô hình hồi quy tuyến tính bội
 - Một số chú ý với mô hình hồi quy tuyến tính
 - So sánh Linear Regression với K-Nearest Neighbors
 - Lab: Linear Regression
+
 ## Classification - Phân lớp
 - Tổng quan về phân lớp
 - Mô hình hồi quy logistic
 - Linear Discriminant Analysis
 - So sánh các phương pháp phân lớp
 - Lab: Logistic Regression, LDA, QDA, KNN
+
 ## Resampling Methods
 - Cross-Validation
 - Boostrap
 - Lab: Cross-Validation and the Bootstrap
+
 ## Linear Model Selection and Regularization
 - Subset Selection
 - Shrinkage Methods
@@ -70,6 +74,7 @@ Email report: lenam.fithcmus@gmail.com/ namele1232000@gmail.com
 - Lab 1: Subset Selection Methods
 - Lab 2: Ridge Regression and the Lasso
 - Lab 3: PCR and PLS Regression
+
 ## Moving Beyond Linearity
 - Polynomial Regression
 - Step Functions
@@ -91,6 +96,7 @@ Email report: lenam.fithcmus@gmail.com/ namele1232000@gmail.com
 - Support Vector Machines
 - SVMs with More than Two Classes
 - Lab: Support Vector Machines
+
 ## Unsupersived Learning - Học không giám sát
 - Principal Components Analysis
 - Clustering Methods
