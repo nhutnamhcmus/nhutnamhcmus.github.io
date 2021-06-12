@@ -37,6 +37,33 @@ Sử dụng tập dữ liệu Son et al. Dataset. Nguồn dữ liệu từ bài 
 
 ## Phân chia tập train, test
 
+Bộ dữ liệu train (huấn luyện) và test (kiểm tra) được giữ nguyên theo cài đặt của nhóm tác giả
+
+Với TIMIT
+- Tập train: 2310 file âm thanh
+- Tập test: gồm 1386 file âm thanh
+
+Với Librispeech
+- Tập train: 14481 file âm thanh
+- Tập test: gồm 7452 file âm thanh
+
+Với Son et al. Dataset
+
+Do bị lỗi file âm thanh nên mình bỏ 1 số file bị lỗi từ tập dữ liệu và bổ
+sung thêm 20 (Long & Short) file do mình tự ghi âm sẵn bằng
+microphone. 
+
+Tập dữ liệu sao khi kiểm tra gồm có 19 người nói, mỗi người thu hai loại
+file, 10 file âm ngắn, 10 file âm dài.
+
+Mình thực hiện chạy thử và đánh giá mô hình dựa vào độ lỗi phân lớp
+FER trong tác vụ định danh người nói. Giả định những có hai loại người
+vị trí số chẵn và lẻ để thực hiện đánh giá xác minh người nói.
+
+- Tập train: mỗi người chọn ra 5 file đầu tiên làm file huấn luyện
+- Tập test: mỗi người chọn ra 2 file tiếp theo làm file kiểm tra
+- Tập validation: phần còn lại, dùng để tính toán d-vector
+
 ## Thông số mô hình với tập dữ liệu
 
 ### TIMIT

@@ -57,7 +57,7 @@ Cung cấp một tập các bộ lọc mà chúng nhỏ gọn và hiệu quả t
 	
 Đây là một sự kết hợp tuyệt vời giữa Học máy (Machine Learning) và Xử lý Tín hiệu số (Digital Signal Processing).
 	
-Bài báo được đăng công khai trên arXiv dot org lần đầu tiên vào năm 2018 bởi hai người Mirco Ravanelli, Yoshua Bengio (ông được xem là một trong 3 vị cha đẻ của phương pháp Deep Learning hiện đại), phiên bản cập nhật gần đây nhất là vào năm 2019 bằng việc thay thế hàm "sinc\_conv" bằng "SincConv\_fast" giúp tăng tốc độ lên 50\% so với phiên bản cũ.
+Bài báo được đăng công khai trên arXiv dot org lần đầu tiên vào năm 2018 bởi hai người Mirco Ravanelli, Yoshua Bengio (ông được xem là một trong 3 vị cha đẻ của phương pháp Deep Learning hiện đại), phiên bản cập nhật gần đây nhất là vào năm 2019 bằng việc thay thế hàm "sinc\_conv" bằng "SincConv\_fast" giúp tăng tốc độ lên 50% so với phiên bản cũ.
 
 # Về nhận dạng giọng nói
 
@@ -206,7 +206,7 @@ Sincnet được thiết kế theo cách mà nó buộc mạng phải tập trun
 
 ## Tính hiệu quả
 
-Do các hàm kernel $g(.)$ là đối xứng nên ta có thể thực hiện phép tích chập trên một phần filter và kế thừa kết quả này trên phần còn lại. Điều này sẽ tiết kiệm 50\% việc tính toán.
+Do các hàm kernel $g(.)$ là đối xứng nên ta có thể thực hiện phép tích chập trên một phần filter và kế thừa kết quả này trên phần còn lại. Điều này sẽ tiết kiệm 50% việc tính toán.
 
 |![](/assets/images_posts/intro2sincnet/g_symmetric.png)|
 |:--:| 
@@ -284,7 +284,7 @@ Hình 3 cho thấy đáp ứng tần số tích lũy của các bộ lọc đư�
 |:--:| 
 | Bảng kết quả SicNet trong tác vụ nhận dạng giọng nói - SI |
 
-Bảng trên đây là một bảng báo cáo về tỉ lệ phân lớp lỗi (Classification Error Rates - CER\%), khi thực nghiệm SincNet cùng với số kỹ thuật khác như \textbf{DNN-MFCC, CNN-FBANK, CNN-Raw} trên hai tập dữ liệu TIMIT và LibriSpeech. Nhìn chung, SincNet luôn dẫn đầu về độ lỗi tốt (có độ lỗi thấp nhất). Độ lỗi của CNN-Raw thật sự lớn khi tiến hành với tập TIMIT, điều này cho thấy SincNet của chúng ta hoạt động tốt ngay cả khi có không lớn dữ liệu huấn luyện có sẵn. Khi huấn luyện với LibriSpeech, độ lỗi CNN-Raw giảm xuống, chúng ta có 4\% độ lỗi được giảm xuống, điều này cho thấy tốc độ hội tụ của SincNet cải thiện rõ ràng (1200 và 1800 epochs). Với DNN-MFCC, CNN-FBANK, hai kỹ thuật này hoạt động tốt trên TIMIT (vì đơn giản là TIMIT không lớn cho lắm như LibriSpeech), khi sang LibriSpeech, chúng có vẻ mất đi tính ổn định, độ lỗi cao lên.
+Bảng trên đây là một bảng báo cáo về tỉ lệ phân lớp lỗi (Classification Error Rates - CER\%), khi thực nghiệm SincNet cùng với số kỹ thuật khác như DNN-MFCC, CNN-FBANK, CNN-Raw trên hai tập dữ liệu TIMIT và LibriSpeech. Nhìn chung, SincNet luôn dẫn đầu về độ lỗi tốt (có độ lỗi thấp nhất). Độ lỗi của CNN-Raw thật sự lớn khi tiến hành với tập TIMIT, điều này cho thấy SincNet của chúng ta hoạt động tốt ngay cả khi có không lớn dữ liệu huấn luyện có sẵn. Khi huấn luyện với LibriSpeech, độ lỗi CNN-Raw giảm xuống, chúng ta có 4% độ lỗi được giảm xuống, điều này cho thấy tốc độ hội tụ của SincNet cải thiện rõ ràng (1200 và 1800 epochs). Với DNN-MFCC, CNN-FBANK, hai kỹ thuật này hoạt động tốt trên TIMIT (vì đơn giản là TIMIT không lớn cho lắm như LibriSpeech), khi sang LibriSpeech, chúng có vẻ mất đi tính ổn định, độ lỗi cao lên.
 
 ## Tác vụ xác minh người nói - Speaker Verification
 
@@ -292,9 +292,9 @@ Bảng trên đây là một bảng báo cáo về tỉ lệ phân lớp lỗi (
 |:--:| 
 | Bảng kết quả SicNet trong tác vụ xác minh giọng nói - SV |
 
-Thử nghiệm cuối cùng mà nhóm tác giả trình bày ở trong bài báo là tác vụ \textbf{xác minh giọng nói - Speaker Verification}. Bảng dưới đây, được trích ra trong bài báo, báo cáo về chỉ số \textbf{Equal Error Rate} (EER\%) khi thực nghiệm trên tập \textbf{LibriSpeech}. 
+Thử nghiệm cuối cùng mà nhóm tác giả trình bày ở trong bài báo là tác vụ xác minh giọng nói - Speaker Verification} Bảng dưới đây, được trích ra trong bài báo, báo cáo về chỉ số Equal Error Rate (EER%) khi thực nghiệm trên tập LibriSpeech. 
 
-Tất cả các mô hình DNN đều cho thấy hiệu suất đầy hứa hẹn, các chỉ EER thấp hơn 1\% trong mọi trường hợp. Bảng cũng cho thấy rằng SincNet lại một lần nữa hoạt động tốt hơn các mô hình khác, cho thấy sự cải thiện hiệu suất tương đối khoảng 11\% so với mô hình CNN. Các mô hình lớp DNN hoạt động tốt hơn đáng kể so với các d-vector. Bất chấp hiệu quả của cách tiếp cận sau này, một mô hình DNN mới phải được huấn luyện (hoặc tinh chỉnh) cho mỗi người nói mới được thêm vào nhóm. Điều này làm cho cách tiếp cận này hoạt động tốt hơn, nhưng kém linh hoạt hơn so với d-vector.
+Tất cả các mô hình DNN đều cho thấy hiệu suất đầy hứa hẹn, các chỉ EER thấp hơn 1% trong mọi trường hợp. Bảng cũng cho thấy rằng SincNet lại một lần nữa hoạt động tốt hơn các mô hình khác, cho thấy sự cải thiện hiệu suất tương đối khoảng 11% so với mô hình CNN. Các mô hình lớp DNN hoạt động tốt hơn đáng kể so với các d-vector. Bất chấp hiệu quả của cách tiếp cận sau này, một mô hình DNN mới phải được huấn luyện (hoặc tinh chỉnh) cho mỗi người nói mới được thêm vào nhóm. Điều này làm cho cách tiếp cận này hoạt động tốt hơn, nhưng kém linh hoạt hơn so với d-vector.
 	
 Để hoàn thiện hơn, nhóm tác giả cũng tiến hành các thí nghiệm khác với các i-vector tiêu chuẩn. Tuy nhiên so sánh chi tiết với kỹ thuật này nằm ngoài phạm vi của bài báo nên nhóm tác giả chỉ nêu ra những điểm đáng chú ý nhất trong kết quả. Hệ thống i-vector tốt nhất của nhóm tác giả đạt được EER = 1,1\%, khá xa so với những gì đạt được với hệ thống DNN. Tài liệu nổi tiếng rằng i-vector cung cấp hiệu suất cạnh tranh khi sử dụng nhiều dữ liệu huấn luyện hơn cho mỗi người nói và khi các câu kiểm tra dài hơn được sử dụng. Trong các điều kiện thách thức phải đối mặt trong công việc này, mạng neural đạt được khả năng tổng quát hóa tốt hơn.
 
