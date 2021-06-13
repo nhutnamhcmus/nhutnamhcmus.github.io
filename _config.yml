@@ -93,7 +93,7 @@ analytics:
 # Site Author
 author:
   name             : "Nhut-Nam Le"
-  avatar           : "/assets/img/lambda_01.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/img/elaina.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Computer Science Student. C/C++ Enthusiast. Interested in Computer Vision. Do Mathematics for fun."
   location         : "Vietnam"
   email            : "lenam.fithcmus@gmail.com"
