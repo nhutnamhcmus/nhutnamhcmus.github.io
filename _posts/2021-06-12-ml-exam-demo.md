@@ -123,14 +123,181 @@ plt.show()
 Dữ liệu huấn luyện bảng sau 𝐷 có 3 thuộc tính Snow\_Dist, Weekend, Sun và một thuộc tính quyết
 định Skiing. Câu 4, 5 và 6 sẽ sử dụng dữ liệu này.
 
+|  # 	|  Snow\_Dist 	|  Weekend 	|  Sun 	|  Skiing 	|
+|---	|---	|---	|---	|---	|
+|  1 	|  $\leq 100$ 	|  yes 	|  yes 	|  yes 	|
+|  2 	|  $\leq 100$ 	|  yes 	|  yes 	|  yes 	|
+|  3 	|  $\leq 100$ 	|  yes 	|  no 	|  yes 	|
+|  4 	|  $\leq 100$ 	|   no	|  yes 	|  yes 	|
+|  5 	|  $> 100$ 	|  yes 	|  yes 	|  yes 	|
+|  6 	|  $> 100$ 	|  yes 	|  yes 	|  yes 	|
+|  7 	|  $> 100$ 	|  yes 	|  yes 	|  no 	|
+|  8 	|  $> 100$ 	|  yes 	|  no 	|  no 	|
+|  9 	|  $> 100$ 	|  no 	|  yes 	|  no 	|
+|  10 	| $> 100$  	|  no 	|  yes 	|  no 	|
+
 ## Câu 04: Decision Tree with Gini
 Tìm và vẽ tất cả các cây stump sử dụng độ đo **gini** (không cần chạy từng bước)
 
-## Câu 05: 
+**Hướng đi** 
+
+Ta có:
+
+$$\text{Gini}(D) = 1 - \sum_{i=1}^{m}p_i^2$$
+
+$$gini_{A}(D) = \frac{|D_1|}{|D|}gini(D_1)+\frac{|D_2|}{|D|}gini(D_2)$$
+
+$$\Delta gini(A) = gini(D) - gini_A(D)$$
+
+Tổng số bộ: 10
+
+Lớp P (Positive) = 6: Skiing = "yes"
+
+Lớp N (Negative) = 4: Skiiing = "no"
+
+$$gini(D) = 1 - \left(\frac{6}{10}\right)^2 - \left(\frac{4}{10}\right)^2 = 0.48$$
+
+Xem xét thuộc tính **Snow\_Dist**:{$\leq 100$, $> 100$}
+
+$$gini_{\text{Snow_Dist}}(D) = \frac{|D_1|}{10}gini(D_1)+\frac{|D_2|}{10}gini(D_2)$$
+
+$$= \frac{6}{10}\left(1-\left(\frac{4}{6}\right)^2-\left(\frac{2}{6}\right)^2\right) + \frac{4}{10}\left(1-\left(\frac{4}{4}\right)^2\right) = \frac{4}{15} = 0.267$$
+
+Xem xét thuộc tính **Weekend** {yes, no}
+
+$$gini_{\text{Weekend}}(D) = \frac{|D_1|}{10}gini(D_1)+\frac{|D_2|}{10}gini(D_2)$$
+
+$$= \frac{6}{10}\left(1-\left(\frac{5}{6}\right)^2-\left(\frac{1}{6}\right)^2\right) + \frac{4}{10}\left(1-\left(\frac{2}{4}\right)^2-\left(\frac{2}{4}\right)^2\right) = \frac{11}{30} = 0.367$$
+
+Xem xét thuộc tính **Sun** {yes, no}
+
+$$gini_{\text{Sun}}(D) = \frac{|D_1|}{10}gini(D_1)+\frac{|D_2|}{10}gini(D_2)$$
+
+$$= \frac{6}{10}\left(1-\left(\frac{5}{6}\right)^2-\left(\frac{1}{6}\right)^2\right) + \frac{4}{10}\left(1-\left(\frac{3}{4}\right)^2-\left(\frac{1}{4}\right)^2\right) = \frac{19}{60} = 0.3167$$
+
+| Attribute  	|  Split 	|  Gini index 	|  Reduction in impurity $\Delta gini(A) = gini(D) - gini_A(D)$ 	|
+|---	|---	|---	|---	|
+| Snow_Dist  	| Binary  	|  0.267 	|  0.48 - 0.267 =  0.213	|
+| Weekend  	|  Binary 	|  0.367 	| 0.48 - 0.367 =  0.113	|
+|  Sun 	|  Binary 	|  0.3167 	|  0.48 - 0.3167 = 0.1633	|
+
+Thuộc tính Snow_Dist được chọn vì có Gini index nhỏ nhất và Reduction in impurity lớn nhất
+
+## Câu 05: Decision Tree with Entropy
 Tìm và vẽ cây quyết định sử dụng độ đo **entropy** (không cần chạy từng bước)
 
-## Câu 06: Decision Tree with Entropy
+**Độ đo Entropy**
+
+$$\text{Entropy}(S) = -\sum_{i=1}^{c}p_ilog_2p_i$$
+
+**Average entropy** on attribute A
+
+$$AE(S, A) = \sum_{v \in \text{Values}(A)}\frac{|S_v|}{|S|}\text{Entropy}(S_v)$$
+
+**Information gain**
+
+$$Gain(S, A) = Entropy(S) - AE(S, A)$$
+
+Tổng số bộ: 10
+
+Lớp P (Positive) = 6: Skiing = "yes"
+
+Lớp N (Negative) = 4: Skiiing = "no"
+
+Áp dụng:
+
+$$Entropy(S) = -\frac{6}{10}log_2\left(\frac{6}{10}\right) - -\frac{4}{10}log_2\left(\frac{4}{10}\right) = 0.97095$$
+
+Xem xét thuộc tính **Snow\_Dist**:{$\leq 100$, $> 100$}
+- **Snow\_Dist** = $\leq 100$
+
+$$Info([4, 0]) = Entropy([4, 0]) = -\frac{4}{4}log_2\left(\frac{4}{4}\right) -\frac{0}{4}log_2\left(\frac{0}{4}\right) = 0$$
+
+- **Snow\_Dist** = $> 100$
+
+$$Info([2, 4]) = Entropy([2, 4]) = -\frac{2}{6}log_2\left(\frac{2}{6}\right) -\frac{4}{6}log_2\left(\frac{4}{6}\right) = 0.918$$
+
+- Thông tin của thuộc tính **Snow\_Dist**
+
+$$Info([4, 0], [2, 4]) = \frac{4}{10} \times 0 + \frac{6}{10} \times 0.918 = 0.5508$$
+
+- Độ lợi thông tin của thuộc tính **Snow\_Dist**
+
+$$Info([6, 4]) - Info([4, 0], 2, 4]) = Entropy(S) - Info([4, 0], 2, 4]) = 0.42015$$
+
+Xem xét thuộc tính **Weekend** {yes, no}
+- **Weekend** = yes
+
+$$Info([5, 2]) = Entropy([5, 2]) = -\frac{5}{7}log_2\left(\frac{5}{7}\right) -\frac{2}{7}log_2\left(\frac{2}{7}\right) = 0.86312$$
+
+- **Weekend** = no
+
+$$Info([1, 2]) = Entropy([1, 2]) = -\frac{1}{3}log_2\left(\frac{1}{3}\right) -\frac{2}{3}log_2\left(\frac{2}{3}\right) = 0.918296$$
+
+- Thông tin của thuộc tính **Weekend**
+
+$$Info([5, 2], [1, 2]) = \frac{7}{10} \times 0.86312 + \frac{3}{10} \times 0.918296 = 0.879673$$
+
+- Độ lợi thông tin của thuộc tính **Weekend**
+
+$$Info([6, 4]) - Info([5, 2], [1, 2]) = Entropy(S) - Info([5, 2], [1, 2]) = 0.09128$$
+
+Xem xét thuộc tính **Sun** {yes, no}
+- **Sun** = yes
+
+$$Info([5, 3]) = Entropy([5, 3]) = -\frac{5}{8}log_2\left(\frac{5}{8}\right) -\frac{3}{8}log_2\left(\frac{3}{8}\right) = 0.95443$$
+
+- **Sun** = no
+
+$$Info([1, 1]) = Entropy([1, 1]) = -\frac{1}{2}log_2\left(\frac{1}{2}\right) -\frac{1}{2}log_2\left(\frac{1}{2}\right) = 1$$
+
+- Thông tin của thuộc tính **Sun**
+
+$$Info([5, 3], [1, 1]) = \frac{8}{10} \times  0.95443 + \frac{2}{10} \times 1 = 0.963544$$
+
+- Độ lợi thông tin của thuộc tính **Sun**
+
+$$Info([6, 4]) - Info([5, 3], [1, 1]) = Entropy(S) - Info([5, 3], [1, 1]) = 7.406 \times 10^{-3}$$
+
+Chọn thuộc tính **Snow\_Dist** do có Information Gain cao nhất
+
+## Câu 06: Naive Bayes
 Tìm mô hình **naïve bayes** (không cần chạy từng bước)
+
+Mô hình Naive Bayes
+
+- P(Skiing)
+
+|  	|   	|
+|---	|---	|
+| yes  	|  6/10 	|
+| no  	|  4/10 	|
+
+- P(Snow_Dist \| Skiing)
+
+|   	|   	|  Snow_Dist 	|  Snow_Dist 	|
+|---	|---	|---	|---	|
+|   	|   	|   $\leq 100$ 	|  $> 100$ 	|
+| Skiing  	|  yes 	|  4/6 	|  2/6 	|
+| Skiing  	|  no 	|  0/4 	|  4/4 	|
+
+
+- P(Weekend \| Skiing)
+
+|   	|   	|  Snow_Dist 	|  Snow_Dist 	|
+|---	|---	|---	|---	|
+|   	|   	|   yes 	|  no 	|
+| Skiing  	|  yes 	|  5/6 	|  1/6 	|
+| Skiing  	|  no 	|  2/4 	|  2/4 	|
+
+
+- P(Sun \| Skiing)
+
+|   	|   	|  Snow_Dist 	|  Snow_Dist 	|
+|---	|---	|---	|---	|
+|   	|   	|   yes 	|  no 	|
+| Skiing  	|  yes 	|  5/6 	|  1/6 	|
+| Skiing  	|  no 	|  3/4 	|  1/4 	|
 
 # Mạng Neural network 
 
