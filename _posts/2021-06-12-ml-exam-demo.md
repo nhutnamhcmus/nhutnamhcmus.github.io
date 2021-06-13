@@ -14,7 +14,7 @@ comments: true
 
 # Mô hình tuyến tính
 
-## Câu 01:
+## Câu 01: Perceptron Learing Algorithm
 Cho mô hình perceptron $y=sign(w_0 + w_1x)$ với $w_0 = 1$, $w_1 = 1$ và bộ dữ liệu kiểm tra $D = {(x_i, y_i)} = {(2, -1), (3, 1), (-2, -1), (-4, 1)}$. Hãy tính **độ chính xác** của mô hình?
 
 **Hướng đi**
@@ -34,7 +34,7 @@ Với $x_4 = -4$, ta có $y_{\text{pred}} = sign(1 + (-4) \times 1) = -1 \ne y_4
 $$\text{accuracy} = \frac{1}{n}\sum_{i=1}^{n}\left[sign(w_0 + w_1x_i) == y_i\right] = \frac{1}{4} \times 2 = 0.5$$
 
 
-## Câu 02:
+## Câu 02: Logistic Regression
 Cho mô hình logistic regression:
 $$y = \frac{1}{1+ exp(w_0 + w_1x)}$$ với $w_0 = 1$, $w_1 = 1$ và bộ dữ liệu kiểm tra $D = {(x_i, y_i)} = {(-3, -1), (-2, 1), (2, -1), (4, 1)}$. Hãy tính **độ lỗi** của mô hình?
 
@@ -54,7 +54,7 @@ Với $x_4 = 4$, ta có $y_{\text{pred}} = \left[\frac{1}{1+ exp(1 + 1(4))} >= 0
 
 $$\text{error rate} = \frac{1}{n}\sum_{i=1}^{n}\left[\frac{1}{1+ exp(w_0 + w_1x_i)} \ne y_i\right] = \frac{1}{4} \times 2 = 0.5 = 1 - \text{accuracy}$$
 
-## Câu 03:
+## Câu 03: Linear Regression
 Cho mô hình linear regression:
 $$y = f(x) = w_0 + w_1x$$ và bộ dữ liệu D, hãy xác định mô hình và trực quan mô hình
 
@@ -123,25 +123,25 @@ plt.show()
 Dữ liệu huấn luyện bảng sau 𝐷 có 3 thuộc tính Snow\_Dist, Weekend, Sun và một thuộc tính quyết
 định Skiing. Câu 4, 5 và 6 sẽ sử dụng dữ liệu này.
 
-## Câu 04:
+## Câu 04: Decision Tree with Gini
 Tìm và vẽ tất cả các cây stump sử dụng độ đo **gini** (không cần chạy từng bước)
 
 ## Câu 05: 
 Tìm và vẽ cây quyết định sử dụng độ đo **entropy** (không cần chạy từng bước)
 
-## Câu 06:
+## Câu 06: Decision Tree with Entropy
 Tìm mô hình **naïve bayes** (không cần chạy từng bước)
 
 # Mạng Neural network 
 
-## Câu 07:
+## Câu 07: Convert expression to computational graph
 Cho biểu thức $y = (ax+b)(cx+d) + sin(c+d)$ hãy chuyển biểu thức thành đồ thị tính toán và
 vẽ đồ thị này
 
 **Hướng đi**: Mình nghĩ vẽ ra cũng dễ :))))
 
 
-## Câu 08:
+## Câu 08: Caluate on Computational Graph
 
 |![](/assets/images_posts/com_graph_00.png)|
 |:--:| 
@@ -162,7 +162,7 @@ $$c \leftarrow a \times b = 9 \times -8 = -72$$
 $$y \leftarrow \sigma(c) = \frac{1}{1 + exp(c)} = \frac{1}{1 + exp(-72)} = 1$$
 
 
-## Câu 09:
+## Câu 09: Derivatives with Computational Graph
 Tính toán đạo hàm riêng 
 
 $$\frac{\partial y}{\partial x_1}, \frac{\partial y}{\partial x_2}, \frac{\partial y}{\partial w_1}, \frac{\partial y}{\partial w_2}$$
