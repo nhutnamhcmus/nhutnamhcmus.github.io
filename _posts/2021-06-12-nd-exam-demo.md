@@ -24,6 +24,74 @@ a) Trình bày các kiến thức về đặc trưng mẫu nhị phân cục b�
 
 b) Sự khác biệt giữa đặc trưng  $LBP_{(P, R)}$ so với đặc trưng $LBP_{(P, R)^{ri}}$. Trình bày ví dụ cho cách tính đặc trưng $LBP_{(P, R)^{ri}}$
 
+**Hướng đi**
+a) Trình bày các kiến thức về đặc trưng mẫu nhị phân cục bộ $LBP_{(P, R)}$
+
+**(1) Phương pháp xác định giá trị**
+
+Phương pháp xác định giá trị LBP sơ khai: Được tính toán bằng cách tại mỗi điểm ảnh, xét 8 điểm xung quanh nó
+- Bước 01: Các điểm xung quanh có giá trị nhỏ hơn điểm đang xét sẽ được đánh dấu là 0, lớn hơn điểm đang xét sẽ được đánh dấu là 1
+- Bước 02: Sau đó, các giá trị sau khi tính toán phân ngưỡng ở trên sẽ được nhân với ma trận trọng số và được sử dụng để tính giá trị LBP của điểm đang xét
+
+$$\begin{bmatrix}1 & 2 & 4 \\128 & & 8\\64 & 32 & 16\end{bmatrix}$$
+
+![](/assets/images_posts/orginal_lbp.png)
+
+Phương pháp xác định giá trị LBP cải tiến: Xét các điểm thuộc đường tròn với tâm là điểm đang xét. Ta gọi $(P,R)$ là vùng lân cận gồm $P$ điểm trên một đường tròn bán kinh $R$
+
+$$T = t(g_c, g_0, ..., g_{p-1})$$
+
+Trong đó:
+- $g_c$ và $(g_0, ..., g_{p-1})$ là giá trị trên ảnh xám của điểm trung tâm và các điểm trên đường tròn bán kính $R$
+
+Ta có thể xấp xỉ công thức trên bằng cách lấy từng điểm trên đường tròn bán kinh $R$ trừ đi giá trị trung tâm $g_c$ do các giá trị chỉ thể hiện cường độ sáng của điểm ảnh.
+
+$$T \approx t(g_0 - g_c, g_1 - g_c, ..., g_{p-1} - g_c)$$
+
+Để không bị ảnh hưởng bởi các giá trị của các điểm ảnh, chuẩn hoá công thức trên bằng việc xét dấu
+
+$$T \approx t(sign(g_0 - g_c), sign(g_1 - g_c), ..., sign(g_{p-1} - g_c))$$
+
+Trong đó:
+
+$$sign(x) = \begin{cases}1, x \geq 0\\ 0, x < 0\end{cases}$$
+
+Giá trị LBP được tính như sau:
+
+$$LBP_{P, R} = \sum_{i=0}^{p-1} sign(g_i-g_c) \times 2^i$$
+
+**(2) Ưu điểm**
+- Bất biến đối với bất kỳ phép biến đổi đơn điệu nào trên ảnh xám (grayscale) nên hiệu quả cho việc làm giảm tỷ lệ từ chối sai (FRR) cho mỗi đối tượng, khi đối tuợng đó được chụp tại những điều kiện sáng/ tối khác nhau
+- Lượng tử hoá vector là không cần thiết
+- Tính toán một cách đơn giản
+
+![](/assets/images_posts/lbp_pr.png)
+
+**(3) Nhược điểm**
+- Chưa quan tâm đến phép quay, đặc trưng LBP áp dụng trên hình ảnh xoay của cùng một đối tượng sẽ tạo ra các giá trị khác nhau
+
+![](/assets/images_posts/stuck_lbp_pr.png)
+
+- Có vấn đề khi số điểm lân cận tăng quá cao, giá trị LBP sẽ tăng lên rất cao
+
+b) Sự khác biệt giữa đặc trưng $LBP_{(P, R)}$ so với đặc trưng $LBP_{(P, R)^{ri}}$. Trình bày ví dụ cho cách tính đặc trưng $LBP_{(P, R)^{ri}}$
+
+Đặc trưng $LBP_{(P, R)^{ri}}$ khắc phục nhược điểm của đặc trưng $LBP_{(P, R)}$: bất biến với phép xoay, chọ giá trị nhỏ nhất để đại diện cho tất cả các ảnh xoay (mỗi ảnh được xoay theo hướng của vòng tròn luợng giác một góc xác định cho trước)
+
+Để kiểm tra một mẫu kết cấu có phải là "Uniform Patterns" hay không, ta áp dụng công thức
+
+$$U(LBP_{P,R}) = |sign(g_{p-1} - g_c) - sign(g_0 - g_c)| + \sum_{i=1}^{p-1}|sign(g_i - g_c) - sign(g_{i-1} - g_c)|$$
+
+Khi $U \leq 2$, mẫu kết cấu gọi là "Uniform Patterns", ngược lại là "Non-Uniform Patterns"
+
+Công thức tính "Uniform Patterns"
+
+$$LBP_{P, R}^{riu2} = \begin{cases}\sum_{i=0}^{p-1}(g_i - g_c), \text{ if } U(LBP_{P, R}) \leq 2\\P+1, \text{otherwise}\end{cases}$$
+
+Để đạt được bất biến với phép quay, một hàm bất biến xoay của LBP được định nghĩa bằng 
+
+$$LBP_{(P, R)^{ri}} = min(ROR(LBP_{(P, R)^{ri}}, i)i = 0, 1, ..., P-1)$$
+
 ## Câu 02: Principal Conponents Analysis
 
 Trình bày các bước thực hiện của thuật toán phân tích thành phần chính PCA? Cho ví dụ minh hoạ?
@@ -185,6 +253,74 @@ a) Trình bày các kiến thức về đặc trưng mẫu nhị phân cục b�
 - (4) Các vị dụ minh hoạ cho các kiến thức đẵ trình bày
 
 b) Sự khác biệt giữa đặc trưng  $LBP_{(P, R)}$ so với đặc trưng $LBP_{(P, R)^{ri}}$. Trình bày ví dụ cho cách tính đặc trưng $LBP_{(P, R)^{ri}}$
+
+**Hướng đi**
+a) Trình bày các kiến thức về đặc trưng mẫu nhị phân cục bộ $LBP_{(P, R)}$
+
+**(1) Phương pháp xác định giá trị**
+
+Phương pháp xác định giá trị LBP sơ khai: Được tính toán bằng cách tại mỗi điểm ảnh, xét 8 điểm xung quanh nó
+- Bước 01: Các điểm xung quanh có giá trị nhỏ hơn điểm đang xét sẽ được đánh dấu là 0, lớn hơn điểm đang xét sẽ được đánh dấu là 1
+- Bước 02: Sau đó, các giá trị sau khi tính toán phân ngưỡng ở trên sẽ được nhân với ma trận trọng số và được sử dụng để tính giá trị LBP của điểm đang xét
+
+$$\begin{bmatrix}1 & 2 & 4 \\128 & & 8\\64 & 32 & 16\end{bmatrix}$$
+
+![](/assets/images_posts/orginal_lbp.png)
+
+Phương pháp xác định giá trị LBP cải tiến: Xét các điểm thuộc đường tròn với tâm là điểm đang xét. Ta gọi $(P,R)$ là vùng lân cận gồm $P$ điểm trên một đường tròn bán kinh $R$
+
+$$T = t(g_c, g_0, ..., g_{p-1})$$
+
+Trong đó:
+- $g_c$ và $(g_0, ..., g_{p-1})$ là giá trị trên ảnh xám của điểm trung tâm và các điểm trên đường tròn bán kính $R$
+
+Ta có thể xấp xỉ công thức trên bằng cách lấy từng điểm trên đường tròn bán kinh $R$ trừ đi giá trị trung tâm $g_c$ do các giá trị chỉ thể hiện cường độ sáng của điểm ảnh.
+
+$$T \approx t(g_0 - g_c, g_1 - g_c, ..., g_{p-1} - g_c)$$
+
+Để không bị ảnh hưởng bởi các giá trị của các điểm ảnh, chuẩn hoá công thức trên bằng việc xét dấu
+
+$$T \approx t(sign(g_0 - g_c), sign(g_1 - g_c), ..., sign(g_{p-1} - g_c))$$
+
+Trong đó:
+
+$$sign(x) = \begin{cases}1, x \geq 0\\ 0, x < 0\end{cases}$$
+
+Giá trị LBP được tính như sau:
+
+$$LBP_{P, R} = \sum_{i=0}^{p-1} sign(g_i-g_c) \times 2^i$$
+
+**(2) Ưu điểm**
+- Bất biến đối với bất kỳ phép biến đổi đơn điệu nào trên ảnh xám (grayscale) nên hiệu quả cho việc làm giảm tỷ lệ từ chối sai (FRR) cho mỗi đối tượng, khi đối tuợng đó được chụp tại những điều kiện sáng/ tối khác nhau
+- Lượng tử hoá vector là không cần thiết
+- Tính toán một cách đơn giản
+
+![](/assets/images_posts/lbp_pr.png)
+
+**(3) Nhược điểm**
+- Chưa quan tâm đến phép quay, đặc trưng LBP áp dụng trên hình ảnh xoay của cùng một đối tượng sẽ tạo ra các giá trị khác nhau
+
+![](/assets/images_posts/stuck_lbp_pr.png)
+
+- Có vấn đề khi số điểm lân cận tăng quá cao, giá trị LBP sẽ tăng lên rất cao
+
+b) Sự khác biệt giữa đặc trưng $LBP_{(P, R)}$ so với đặc trưng $LBP_{(P, R)^{ri}}$. Trình bày ví dụ cho cách tính đặc trưng $LBP_{(P, R)^{ri}}$
+
+Đặc trưng $LBP_{(P, R)^{ri}}$ khắc phục nhược điểm của đặc trưng $LBP_{(P, R)}$: bất biến với phép xoay, chọ giá trị nhỏ nhất để đại diện cho tất cả các ảnh xoay (mỗi ảnh được xoay theo hướng của vòng tròn luợng giác một góc xác định cho trước)
+
+Để kiểm tra một mẫu kết cấu có phải là "Uniform Patterns" hay không, ta áp dụng công thức
+
+$$U(LBP_{P,R}) = |sign(g_{p-1} - g_c) - sign(g_0 - g_c)| + \sum_{i=1}^{p-1}|sign(g_i - g_c) - sign(g_{i-1} - g_c)|$$
+
+Khi $U \leq 2$, mẫu kết cấu gọi là "Uniform Patterns", ngược lại là "Non-Uniform Patterns"
+
+Công thức tính "Uniform Patterns"
+
+$$LBP_{P, R}^{riu2} = \begin{cases}\sum_{i=0}^{p-1}(g_i - g_c), \text{ if } U(LBP_{P, R}) \leq 2\\P+1, \text{otherwise}\end{cases}$$
+
+Để đạt được bất biến với phép quay, một hàm bất biến xoay của LBP được định nghĩa bằng 
+
+$$LBP_{(P, R)^{ri}} = min(ROR(LBP_{(P, R)^{ri}}, i)i = 0, 1, ..., P-1)$$
 
 ## Câu 02: Linear Discriminant Analysis
 
