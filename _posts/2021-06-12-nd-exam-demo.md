@@ -9,6 +9,8 @@ tags:
 
 toc: true
 comments: true
+header:
+  teaser: "/assets/images_posts/recognition.png"
 ---
 
 Giải đề mẫu Nhận Dạng - K2018 HCMUS

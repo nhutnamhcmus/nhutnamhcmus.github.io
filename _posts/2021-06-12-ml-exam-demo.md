@@ -8,6 +8,8 @@ tags:
   - Machine Learning
 toc: true
 comments: true
+header:
+  teaser: "/assets/img/neural_ml.png"
 ---
 
 Đề thi mẫu môn Nhập môn Học Máy - K2018
