@@ -31,23 +31,24 @@ toc: true
 
 ## &nbsp;&nbsp;&nbsp;&nbsp; <img src="https://img.icons8.com/color/48/000000/project.png"/>&nbsp;Personal Projects
 - Learn and present about SincNet
-  - In [Introduction to Machine Learning](https://github.com/nhutnamhcmus/introduction-to-machine-learning-hcmus-presentation), we present about the problem when processing speech signal, the idea and the architecture of SincNet
+  - In [Introduction to Machine Learning](https://github.com/nhutnamhcmus/introduction-to-machine-learning-hcmus-presentation), we present about the problem when processing speech signal, the idea and the architecture of SincNet.
   - In [Recognition Class](https://github.com/nhutnamhcmus/hcmus-recognition-presentation), we cover the traditional methods of voice biometrics, the identification features as well as some case study. Beside that, we also cover the state of the art of voice biometrics in recent years, with five related works in features extraction (d-vectors, j-vectors and x-vectors), in speaker classification by using Deep Learing such as multi-features domain and the SincNet Architecture.
+  - We also training our own model for English voice and Vietnamese voice.
 
 - [Introduction to Machine Learning Project in Classification](https://github.com/nhutnamhcmus/ml-lab-02-classification)
   - Analyze and Visualize Plant Pathology data
   - Data Preprocessing and Data Visualizaion with Python 3 (Matplotlib, Seaborn, Pandas)
-  - Experimental: Setup and training Neural Network to classify leaf diseases
-  - Testing and found very good results: With the Transfer Learning method with ResNet18, 34, 50 and EfficentNet B5 networks, the problem of disease leaf classification has been solved well with a relatively high accuracy after 5-fold of more than 97%, with the technique of using dropout , K-Fold Cross Validation ensures minimizing, avoiding overfitting
+  - Experimental: Setup and training Neural Network to classify leaf diseases.
+  - Testing and found very good results: With the Transfer Learning method with ResNet18, 34, 50 and EfficentNet B5 networks, the problem of disease leaf .classification has been solved well with a relatively high accuracy after 5-fold of more than 97%, with some techniques such as dropout , K-Fold Cross Validation ensures minimizing, avoiding overfitting.
 
 - [Introduction to Machine Learning Project in Regression](https://github.com/nhutnamhcmus/lab-01-regression)
   - AAnalyze Medical Insurance Cost data
   - Data Preprocessing and Data Visualizaion with Python 3 (Matplotlib, Seaborn, Pandas)
   - Analyze the correlation between features in Medical Insurance Cost data
-  - Experimental some Regression Algorithms with implemented in Python 3 such as Linear Regression, Ridge Regression, Lasso Regression, Random Forest Regressor and Polynomial Regression
+  - Experimental some Regression Algorithms with implemented in Python 3 such as Linear Regression, Ridge Regression, Lasso Regression, Random Forest Regressor and Polynomial Regression.
 
 - [Analysis for National High School Graduation Exam 2018](https://github.com/nhutnamhcmus/thpt-qg-2018)
-  - Description: Collecting and visualization data to investigate information in data, find cheating in exam at Ha Giang in 2018.
+  - Description: Collecting and visualization data to investigate information in data, look for evidence of cheating in college exams at Ha Giang in 2018.
   - Programming language: Python 3/ Jupyter Notebook
 
 - [Wine Dataset Classification using Linear Discriminant Analysis](https://github.com/nhutnamhcmus/wine-linear-discriminant-analysis)
