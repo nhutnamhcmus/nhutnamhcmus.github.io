@@ -242,6 +242,20 @@ $$MSE = \frac{1}{10}\sum_{i=1}^{10}(X_i - \hat{X}_i)^2 = 0.67493$$
 
 Trình bày các bước thực hiện của thuật toán phân lớp dùng vector hỗ trợ SVM? Phân tích cụ thể từng bước của thuật toán?
 
+**Hướng đi**
+
+Phát biểu bài toán:
+
+Đầu vào: Tập huấn luyện $$(\mathbf{x}_i, y_i)_{i=1, ..., N} \in \mathbb{R}^D \times \{-1, 1\}$$
+
+Đầu ra: $(\mathbf{w}, b)$
+
+Tác vụ: Tìm một siêu phẳng (hyperplane) 
+
+$$\mathbf{w}^T\mathbf{x}+b = 0, (\mathbf{w} \in \mathbb{R}^D, b \in \mathbb{R})$$
+
+phân tách hai lớp
+
 # Đề 02
 
 ## Câu 01: Local Binary Pattern
@@ -417,6 +431,16 @@ y_{k-1} \\
 \end{bmatrix}
 $$
 
+Điểm khác biệt giữa PCA và LDA
+
+![](/assets/images_posts/pca_vs_lda.png)
+
+|  PCA 	|  LDA 	|
+|---	|---	|
+|  Kỹ thuật biến đổi tuyến tính, một kỹ thuật giảm chiều dữ liệu không giám sát 	|  Kỹ thuật biến đổi tuyến tính, một kỹ thuật giảm chiều dữ liệu có giám sát 	|
+|  Không quan tâm về nhãn dữ liệu | Quan tâm về nhãn dữ liệu, dữ liệu đầu vào phải được gán nhãn trước khi chạy thuật toán LDA 	|
+|  PCA tập trung cực đại phương sai của dữ liệu 	|  LDA tập trung cực tiểu khoảng cách các phần tử trong cùng một lớp (within classes distance) và cực đại khoảng cách giữa các lớp với nhau (between classes distance) 	|
+
 ## Câu 03: Neural Networks
 
 Cho trước một mạng neural với hai tầng: 
@@ -430,3 +454,18 @@ Tuy nhiên, dữ liệu huấn luyện mạng phân bố không đều:
 - Riêng bộ phân lớp 2 chỉ có 1 mẫu huấn luyện
 
 Như vậy, bộ phân lớp 2 là yếu. Học viên hãy đề nghị một cấu trúc mạng nơ ron mới sao cho nâng hiệu quả bộ lớp 2 mà vẫn sử dụng bộ mẫu huấn luyện nói trên? Nêu lên tính hiệu quả của cấu trúc mạng nơ ron đề nghị?
+
+**Hướng đi**
+
+Đề nghị một cấu trúc mạng Neural tăng thêm một tầng cơ sở
+- Tầng 01: Tầng nhận ảnh đầu vào
+- Tầng 02 là tầng ẩn: Trong tầng này gồm hai bộ phân lớp
+  - Bộ phân lớp 1 dùng để phân loại học sinh nam hay học sinh nữ gồm 8 mẫu huấn luyện cho nữ và 8 mẫu nam
+  - Bộ phân lớp 2 dùng để phân loại tóc ngắn hay tóc dài gồm 5 mẫu huấn luyện tóc dài và 8 mẫu tóc ngắn
+- Tầng 03 là tập đầu ra với 4 bộ phân lớp: học sinh nữ có tóc dài, học sinh nam có tóc dài, học sinh nữ có tóc ngẵn, học sinh nam có tóc ngắn
+
+![](/assets/images_posts/file.txt.png)
+
+Tính hiệu quả của cấu trúc mạng Neural:
+- Xây dựng thêm một tầng cơ sở với 2 bộ phân lớp, tăng cường dữ liệu cho mỗi bộ phân lớp, nên sẽ trả về kết quả tốt
+- Tầng phân lớp (tầng xuất) chỉ có nhiệm vụ tổng hợp các kết quả nhận được từ tầng cơ sở (không cần phải huấn luyện)
