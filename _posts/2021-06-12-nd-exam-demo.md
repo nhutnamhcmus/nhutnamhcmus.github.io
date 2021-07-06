@@ -106,22 +106,36 @@ Input: $D = {x_1, x_2, ..., x_n}, x_i \in R^{D}$
 Output: W
 
 Bước 1. Xây dựng vector trung bình $\mu$ 
+
 $$\mu = \frac{1}{n}\sum_{i=1}^{n}x_i$$
 
 Bước 2. Xây dựng ma trận hiệp phương sai $S$ 
+
 $$S = \frac{1}{n}\sum_{i=1}^{n}(x_i - \mu_i)(x_i - \mu_i)^T$$
 
 Bước 3. Phân rã ma trận hiệp phương sai thành những cặp vector riêng và giá trị riêng
 
-$$\{w_1, w_2, ..., w_D\}$$ và $$\lambda_1, \lambda_2, ..., \lambda_D$$
+$$\{w_1, w_2, ..., w_D\}$$ 
+
+và 
+
+$$\lambda_1, \lambda_2, ..., \lambda_D$$
 
 Bước 4. Sắp xếp các giá trị riêng theo thứ tự giảm dần tương ứng với các vectors riêng 
 
-$$\{w_1, w_2, ..., w_D\}$$ và $$\lambda_1 \geq \lambda_2 \geq ... \geq \lambda_D$$
+$$\{w_1, w_2, ..., w_D\}$$ 
+
+và 
+
+$$\lambda_1 \geq \lambda_2 \geq ... \geq \lambda_D$$
 
 Bước 5. Chọn $k$ vector riêng mà tương ứng với $k$ giá trị riêng lớn nhất, với $k$ là số chiều đặc trưng mới  ($k \leq D$). Ở đây mình sẽ có một cách chọn k sao cho hợp lý với cách dựa vào threshold
 
-$$\{w_1, w_2, ..., w_k\}$$ và $$\lambda_1 \geq \lambda_2 \geq ... \geq \lambda_k$$
+$$\{w_1, w_2, ..., w_k\}$$ 
+
+và 
+
+$$\lambda_1 \geq \lambda_2 \geq ... \geq \lambda_k$$
 
 Bước 6. Xây dưng ma trận hình chiếu $W$ từ $k$ vector riêng 
 
