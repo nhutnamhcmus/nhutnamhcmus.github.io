@@ -26,17 +26,49 @@ Về Thị giác máy tính (Computer Vision) là một lĩnh vực bao gồm c�
 
 ## Các phép biến đổi màu
 
+1. Phép biến đổi tuyến tính
+
+2. Phép biến đổi phi tuyến
+
+3. Phép biến đổi dựa trên phân phối xác suất
+
 ## Các phép biến đổi hình học
+
+1. Phép biến đổi vị trí điểm ảnh
+
+2. Phép nội suy giá trị màu của điểm ảnh
 
 ## Làm trơn ảnh trong miền không gian
 
+1. Làm trơn ảnh bằng toán tử trung bình
+
+2. Làm trơn ảnh bằng toán tử Gaussian
+
+3. Làm trơn ảnh bằng toán tử trung vị
+
 ## Phát hiện biên cạnh trong miền không gian
 
+1. Phát hiện biên cạnh trong miền không gian với toán tử Gradient
+
+2. Phát hiện biên cạnh trong miền không gian với toán tử Laplace
+
+3. Phát hiện biên cạnh trong miền không gian với toán tử Laplace of Gaussian
+
 ## Phép biến đổi Fourier
+
+1. Cơ sở Toán học
+
+2. Phép biển đổi Fourier liên tục
+
+2. Phép biến đổi Fourier rời rạc
 
 ## Phép biến đổi Karhunen-Loeve`
 
 ## Phân đoạn ảnh
+
+1. Phân đoạn ảnh sử dụng phương pháp Region growing
+
+2. Phân đoạn ảnh sử dụng phương pháp K-means
 
 ## Kỹ thuật phân đoạn ảnh với Superpixels
 

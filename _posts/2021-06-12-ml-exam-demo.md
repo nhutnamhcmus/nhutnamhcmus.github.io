@@ -17,11 +17,10 @@ header:
 # Mô hình tuyến tính
 
 ## Câu 01: Perceptron Learing Algorithm
+
 Cho mô hình perceptron $y=sign(w_0 + w_1x)$ với $w_0 = 1$, $w_1 = 1$ và bộ dữ liệu kiểm tra $D = {(x_i, y_i)} = {(2, -1), (3, 1), (-2, -1), (-4, 1)}$. Hãy tính **độ chính xác** của mô hình?
 
-**Hướng đi**
-
-Gọi biến toàn cục correct = 0 là số lần dự đoán đúng của mô hình
+**Hướng đi** Gọi biến toàn cục correct = 0 là số lần dự đoán đúng của mô hình
 
 Với $x_1 = 2$, ta có $y_{\text{pred}} = sign(1 + 2 \times 1) = 1 \ne y_1 = -1$
 
@@ -37,12 +36,11 @@ $$\text{accuracy} = \frac{1}{n}\sum_{i=1}^{n}\left[sign(w_0 + w_1x_i) == y_i\rig
 
 
 ## Câu 02: Logistic Regression
+
 Cho mô hình logistic regression:
 $$y = \frac{1}{1+ exp(w_0 + w_1x)}$$ với $w_0 = 1$, $w_1 = 1$ và bộ dữ liệu kiểm tra $D = {(x_i, y_i)} = {(-3, -1), (-2, 1), (2, -1), (4, 1)}$. Hãy tính **độ lỗi** của mô hình?
 
-**Hướng đi**
-
-Gọi biến toàn cục error = 0 là số lần dự đoán bị sai của mô hình
+**Hướng đi** Gọi biến toàn cục error = 0 là số lần dự đoán bị sai của mô hình
 
 Với $x_1 = -3$, ta có $y_{\text{pred}} = \left[\frac{1}{1+ exp(1 + 1(-3))} >= 0.5\right] = 1 \ne y_1 = -1$, error += 1
 
@@ -52,11 +50,12 @@ Với $x_3 = 2$, ta có $y_{\text{pred}} = \left[\frac{1}{1+ exp(1 + 1(2))} >= 0
 
 Với $x_4 = 4$, ta có $y_{\text{pred}} = \left[\frac{1}{1+ exp(1 + 1(4))} >= 0.5\right] = -1 \ne y_4 = 1$, error += 1
 
-Độ lỗi của mô hình 
+Độ lỗi của mô hình:
 
 $$\text{error rate} = \frac{1}{n}\sum_{i=1}^{n}\left[\frac{1}{1+ exp(w_0 + w_1x_i)} \ne y_i\right] = \frac{1}{4} \times 2 = 0.5 = 1 - \text{accuracy}$$
 
 ## Câu 03: Linear Regression
+
 Cho mô hình linear regression:
 $$y = f(x) = w_0 + w_1x$$ và bộ dữ liệu D, hãy xác định mô hình và trực quan mô hình
 
@@ -74,11 +73,11 @@ $$ X =
 \end{bmatrix}
 $$
 
-$$ y = 
+$$ y =
 \begin{bmatrix}
     2 \\
     1 \\
-    2 
+    2
 \end{bmatrix}
 $$
 
@@ -119,7 +118,6 @@ plt.show()
 
 |![](/assets/images_posts/ml-testt.png)|
 
-
 # Mô hình cây quyết định và thống kê
 
 Dữ liệu huấn luyện bảng sau 𝐷 có 3 thuộc tính Snow\_Dist, Weekend, Sun và một thuộc tính quyết
@@ -139,6 +137,7 @@ Dữ liệu huấn luyện bảng sau 𝐷 có 3 thuộc tính Snow\_Dist, Weeke
 |  10 	| $> 100$  	|  no 	|  yes 	|  no 	|
 
 ## Câu 04: Decision Tree with Gini
+
 Tìm và vẽ tất cả các cây stump sử dụng độ đo **gini** (không cần chạy từng bước)
 
 **Hướng đi** 
@@ -163,29 +162,30 @@ Xem xét thuộc tính **Snow\_Dist**:{$\leq 100$, $> 100$}
 
 $$gini_{\text{Snow_Dist}}(D) = \frac{|D_1|}{10}gini(D_1)+\frac{|D_2|}{10}gini(D_2)$$
 
-$$= \frac{6}{10}\left(1-\left(\frac{4}{6}\right)^2-\left(\frac{2}{6}\right)^2\right) + \frac{4}{10}\left(1-\left(\frac{4}{4}\right)^2\right) = \frac{4}{15} = 0.267$$
+$$= \frac{4}{10}\left(1-\left(\frac{4}{4}\right)^2\right) + \frac{6}{10}\left(1-\left(\frac{2}{6}\right)^2-\left(\frac{4}{6}\right)^2\right) = \frac{4}{15} = 0.267$$
 
 Xem xét thuộc tính **Weekend** {yes, no}
 
 $$gini_{\text{Weekend}}(D) = \frac{|D_1|}{10}gini(D_1)+\frac{|D_2|}{10}gini(D_2)$$
 
-$$= \frac{6}{10}\left(1-\left(\frac{5}{6}\right)^2-\left(\frac{1}{6}\right)^2\right) + \frac{4}{10}\left(1-\left(\frac{2}{4}\right)^2-\left(\frac{2}{4}\right)^2\right) = \frac{11}{30} = 0.367$$
+$$= \frac{7}{10}\left(1-\left(\frac{5}{7}\right)^2-\left(\frac{2}{7}\right)^2\right) + \frac{3}{10}\left(1-\left(\frac{1}{3}\right)^2-\left(\frac{2}{3}\right)^2\right) = \frac{44}{105} = 0.41905$$
 
 Xem xét thuộc tính **Sun** {yes, no}
 
 $$gini_{\text{Sun}}(D) = \frac{|D_1|}{10}gini(D_1)+\frac{|D_2|}{10}gini(D_2)$$
 
-$$= \frac{6}{10}\left(1-\left(\frac{5}{6}\right)^2-\left(\frac{1}{6}\right)^2\right) + \frac{4}{10}\left(1-\left(\frac{3}{4}\right)^2-\left(\frac{1}{4}\right)^2\right) = \frac{19}{60} = 0.3167$$
+$$= \frac{8}{10}\left(1-\left(\frac{5}{8}\right)^2-\left(\frac{3}{8}\right)^2\right) + \frac{2}{10}\left(1-\left(\frac{1}{2}\right)^2-\left(\frac{1}{2}\right)^2\right) = \frac{19}{40} = 0.475$$
 
 | Attribute  	|  Split 	|  Gini index 	|  Reduction in impurity $\Delta gini(A) = gini(D) - gini_A(D)$ 	|
 |---	|---	|---	|---	|
 | Snow_Dist  	| Binary  	|  0.267 	|  0.48 - 0.267 =  0.213	|
-| Weekend  	|  Binary 	|  0.367 	| 0.48 - 0.367 =  0.113	|
-|  Sun 	|  Binary 	|  0.3167 	|  0.48 - 0.3167 = 0.1633	|
+| Weekend  	|  Binary 	|  0.367 	| 0.48 - 0.41905 =  0.06095	|
+|  Sun 	|  Binary 	|  0.3167 	|  0.48 - 0.475 = 0.005	|
 
 Thuộc tính Snow_Dist được chọn vì có Gini index nhỏ nhất và Reduction in impurity lớn nhất
 
 ## Câu 05: Decision Tree with Entropy
+
 Tìm và vẽ cây quyết định sử dụng độ đo **entropy** (không cần chạy từng bước)
 
 **Độ đo Entropy**
@@ -208,9 +208,10 @@ Lớp N (Negative) = 4: Skiiing = "no"
 
 Áp dụng:
 
-$$Entropy(S) = -\frac{6}{10}log_2\left(\frac{6}{10}\right) - -\frac{4}{10}log_2\left(\frac{4}{10}\right) = 0.97095$$
+$$Entropy(S) = -\frac{6}{10}log_2\left(\frac{6}{10}\right) -\frac{4}{10}log_2\left(\frac{4}{10}\right) = 0.97095$$
 
 Xem xét thuộc tính **Snow\_Dist**:{$\leq 100$, $> 100$}
+
 - **Snow\_Dist** = $\leq 100$
 
 $$Info([4, 0]) = Entropy([4, 0]) = -\frac{4}{4}log_2\left(\frac{4}{4}\right) -\frac{0}{4}log_2\left(\frac{0}{4}\right) = 0$$
@@ -228,6 +229,7 @@ $$Info([4, 0], [2, 4]) = \frac{4}{10} \times 0 + \frac{6}{10} \times 0.918 = 0.5
 $$Info([6, 4]) - Info([4, 0], 2, 4]) = Entropy(S) - Info([4, 0], 2, 4]) = 0.42015$$
 
 Xem xét thuộc tính **Weekend** {yes, no}
+
 - **Weekend** = yes
 
 $$Info([5, 2]) = Entropy([5, 2]) = -\frac{5}{7}log_2\left(\frac{5}{7}\right) -\frac{2}{7}log_2\left(\frac{2}{7}\right) = 0.86312$$
@@ -245,6 +247,7 @@ $$Info([5, 2], [1, 2]) = \frac{7}{10} \times 0.86312 + \frac{3}{10} \times 0.918
 $$Info([6, 4]) - Info([5, 2], [1, 2]) = Entropy(S) - Info([5, 2], [1, 2]) = 0.09128$$
 
 Xem xét thuộc tính **Sun** {yes, no}
+
 - **Sun** = yes
 
 $$Info([5, 3]) = Entropy([5, 3]) = -\frac{5}{8}log_2\left(\frac{5}{8}\right) -\frac{3}{8}log_2\left(\frac{3}{8}\right) = 0.95443$$
@@ -264,6 +267,7 @@ $$Info([6, 4]) - Info([5, 3], [1, 1]) = Entropy(S) - Info([5, 3], [1, 1]) = 7.40
 Chọn thuộc tính **Snow\_Dist** do có Information Gain cao nhất
 
 ## Câu 06: Naive Bayes
+
 Tìm mô hình **naïve bayes** (không cần chạy từng bước)
 
 Mô hình Naive Bayes

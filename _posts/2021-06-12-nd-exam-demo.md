@@ -18,7 +18,9 @@ Giải đề mẫu Nhận Dạng - K2018 HCMUS
 # Đề 01
 
 ## Câu 01: Local Binary Pattern
+
 a) Trình bày các kiến thức về đặc trưng mẫu nhị phân cục bộ $LBP_{(P, R)}$
+
 - (1) Phương pháp xác định giá trị
 - (2) Ưu điểm
 - (3) Nhược điểm
@@ -32,6 +34,7 @@ a) Trình bày các kiến thức về đặc trưng mẫu nhị phân cục b�
 **(1) Phương pháp xác định giá trị**
 
 Phương pháp xác định giá trị LBP sơ khai: Được tính toán bằng cách tại mỗi điểm ảnh, xét 8 điểm xung quanh nó
+
 - Bước 01: Các điểm xung quanh có giá trị nhỏ hơn điểm đang xét sẽ được đánh dấu là 0, lớn hơn điểm đang xét sẽ được đánh dấu là 1
 - Bước 02: Sau đó, các giá trị sau khi tính toán phân ngưỡng ở trên sẽ được nhân với ma trận trọng số và được sử dụng để tính giá trị LBP của điểm đang xét
 
@@ -44,6 +47,7 @@ Phương pháp xác định giá trị LBP cải tiến: Xét các điểm thu�
 $$T = t(g_c, g_0, ..., g_{p-1})$$
 
 Trong đó:
+
 - $g_c$ và $(g_0, ..., g_{p-1})$ là giá trị trên ảnh xám của điểm trung tâm và các điểm trên đường tròn bán kính $R$
 
 Ta có thể xấp xỉ công thức trên bằng cách lấy từng điểm trên đường tròn bán kinh $R$ trừ đi giá trị trung tâm $g_c$ do các giá trị chỉ thể hiện cường độ sáng của điểm ảnh.
@@ -94,7 +98,7 @@ $$LBP_{P, R}^{riu2} = \begin{cases}\sum_{i=0}^{p-1}(g_i - g_c), \text{ if } U(LB
 
 $$LBP_{(P, R)^{ri}} = min(ROR(LBP_{(P, R)^{ri}}, i)i = 0, 1, ..., P-1)$$
 
-## Câu 02: Principal Conponents Analysis
+## Câu 02: Principal Components Analysis
 
 Trình bày các bước thực hiện của thuật toán phân tích thành phần chính PCA? Cho ví dụ minh hoạ?
 
