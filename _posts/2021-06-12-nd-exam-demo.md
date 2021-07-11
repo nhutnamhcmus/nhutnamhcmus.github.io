@@ -179,7 +179,7 @@ X = \begin{bmatrix}
 $$
 
 Bước 01: Tính toán vector trung bình
-$$\text{mean_vector} = [6.9, 3.5, 5.1]$$
+$$\text{mean\_vector} = [6.9, 3.5, 5.1]$$
 
 Bước 02: Xây dựng ma trận hiệp phương sai
 $$
