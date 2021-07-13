@@ -34,6 +34,7 @@ Các đường dẫn dưới đây dễ dàng tìm được bằng công cụ t�
 (Đang cập nhật)
 
 ## Applied Mathematics & Statistical - Toán ứng dụng và Thống kê
+
 - Morris H. DeGroot, Mark J. Schervish, Probability and Statistics, 2012
 - Robert P. Dobrow, Introduction to Stochastic Processes with R, 2016
 - Peter Bruce, Andrew Bruce, Peter Gedeck, Practical Statistics for Data Scientists,  2020
@@ -43,6 +44,7 @@ Các đường dẫn dưới đây dễ dàng tìm được bằng công cụ t�
 (Đang cập nhật)
 
 # Programming - Lập trình
+
 - Youtube Channel: [javidx9](https://www.youtube.com/c/javidx9/featured)
 - Youtube Channel: [Cᐩᐩ Weekly With Jason Turner](https://www.youtube.com/channel/UCxHAlbZQNFU2LgEtiqd2Maw)
 - GNU Bash: https://www.gnu.org/software/bash/manual/
@@ -66,12 +68,15 @@ Các đường dẫn dưới đây dễ dàng tìm được bằng công cụ t�
 (Đang cập nhật)
 
 # Data Structures & Algorithms - Cấu trúc dữ liệu và Giải thuật
+
 - Web: [Giải Thuật Lập Trình](http://www.giaithuatlaptrinh.com/)
 
 (Đang cập nhật)
 # Functional Programming - Phương pháp lập trình Hàm
 
+
 # Operating Systems - Hệ điều hành
+
 - Ebook: A little book of Semaphore
 
 (Đang cập nhật)
@@ -79,6 +84,7 @@ Các đường dẫn dưới đây dễ dàng tìm được bằng công cụ t�
 (Đang cập nhật)
 
 # Computer Architectures & Assembly languages - Kiến trúc máy tính và Hợp ngữ
+
 - Ebook: Computer Organization and Design, Third Edition
 - Ebook: Prentice Hall - Computer Organization and Architecture 6th Ed
 - Ebook: Structured Computer Organization - Tanenbum - 4th Edition
@@ -86,11 +92,13 @@ Các đường dẫn dưới đây dễ dàng tìm được bằng công cụ t�
 (Đang cập nhật)
 
 # Java Programming - Lập trình Java
+
 - Web: [GPCoder Trang chia sẻ kiến thức lập trình Java](https://gpcoder.com/)
 
 (Đang cập nhật)
 
 # Machine Learning - Học máy
+
 - Web: [Forum Machine Learning Cơ bản](https://machinelearningcoban.com/)
 
 ## Fundamentals of Artificial Intelligence - Cơ sở trí tuệ nhân tạo
@@ -98,6 +106,7 @@ Các đường dẫn dưới đây dễ dàng tìm được bằng công cụ t�
 (Đang cập nhật)
 
 ## Introduction to Machine Learning - Nhập môn Học máy
+
 - Course: [Learning From Data MOOC](https://work.caltech.edu/telecourse)
 
 (Đang cập nhật)
@@ -109,11 +118,13 @@ Các đường dẫn dưới đây dễ dàng tìm được bằng công cụ t�
 # Computer Vision - Thị giác máy tính
 
 ## Digital Image & Video Processing - Xử lý ảnh số và video số
+
 - Ebook: Digital Image Processing (3rd Edition) 3rd Edition
 
 (Đang cập nhật)
 
 ## Multivariate Statistical Analysis - Phân tích thống kê dữ liệu nhiều biến
+
 - Ebook: [Applied Multivariate Statistical Analysis 6th Edition](http://docshare04.docshare.tips/files/12598/125983744.pdf)
 
 # Natural Language Processing - Xử lý ngôn ngữ tự nhiên
@@ -121,9 +132,8 @@ Các đường dẫn dưới đây dễ dàng tìm được bằng công cụ t�
 (Đang cập nhật)
 
 # Linux & Linux Distro
+
 - Youtube Channel: [Luke Smith](https://www.youtube.com/channel/UC2eYFnH61tmytImy1mTYvhA)
 - Youtube Channel: [DistroTube](https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg)
 
 (Đang cập nhật)
-
-

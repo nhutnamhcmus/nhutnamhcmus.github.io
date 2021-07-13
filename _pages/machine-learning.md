@@ -139,6 +139,7 @@ Email report: lenam.fithcmus@gmail.com/ namele1232000@gmail.com
 ## Chap 17: Undirected Graphical Models
 
 ## Chap 18: High-Dimensional Problem
+
 # Tài liệu tham khảo
 - \[1\] Machine Learning Coursera - Andrew Ng
 - \[2\] Learning From Data, Machine Learning course - recorded at a live broadcast from Caltech
@@ -146,4 +147,5 @@ Email report: lenam.fithcmus@gmail.com/ namele1232000@gmail.com
 - \[4\] Khoa học dữ liệu - Khanh's Blog
 - \[5\] Python implementation of algorithms from Russell And Norvig's "Artificial Intelligence - A Modern Approach"
 - \[6\] Christopher Olah's Blog
+- \[7\] [Khoa Học Dữ Liệu Blog](https://khoahocdulieu.github.io/home) - Giáo sư Nhật, giáo sư về khoa học dữ liệu, học máy, và thống kê tại đại học Texas tại Austin 
 

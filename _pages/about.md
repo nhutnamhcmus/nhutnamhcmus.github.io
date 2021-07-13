@@ -1,21 +1,22 @@
 ---
 layout: single
 permalink: /about/
-title: "About"
 last_modified_at: 2020-12-4
 toc: true
 comments: true
 ---
 
-## About me and this site
+## A brief introduction about me and this small site
 
-![Fav meme LOL](https://j.gifs.com/v15Bnk.gif)
+<p><img style="float: left;margin:5px 20px 5px 1px" src="{{site.baseurl}}/assets/img/avt/avt_2.jpg" width="200px"></p>
 
 Hi! I'm currently as a student who goes by the full name is Nhut-Nam Le. My country is Vietnam, for studying I'm now living in Ho Chi Minh City
 
 My background is Computer Science at Ho Chi Minh University of Science, VNU (HCMUS), before go to there for my learning, I used to live in home town - Tayninh, for a long time in my childhood.
 
 Besides computer programming, I like watching anime, mathematics and reading books, light novel.
+
+![Fav meme LOL](https://j.gifs.com/v15Bnk.gif)
 
 This is a site which has a template fork from minimal mistake, just a static github pages that post something about me, my work and some blog-post (written in English or Vietnamese depend on my opinion).
 

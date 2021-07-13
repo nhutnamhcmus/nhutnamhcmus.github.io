@@ -3,6 +3,7 @@ layout: single
 permalink: /intro2ml/topic00-intro-ml
 title: "[Intro2ML] Máy Học là gì?"
 toc: true
+comments: True
 ---
 Trong những năm gần đây, có lẽ mọi người không lạ gì khi nghe đến cụm từ "AI", từ viết tắt của "Artificial Intelligence" - Trí tuệ nhân tạo mà ta được biết đến. AI nổi lên mạnh mẽ thúc đẩy nhiều lĩnh vực trong xã hội đi lên, đặc biệt là trong tự động hóa, nhận dạng, dự đoán xu hướng, ... Để đạt được những thành công vượt trội, tạo nên cuộc cách mạng công nghiệp 4.0, chính là nhờ vào lĩnh vực Machine Learning hay Máy học (Học máy) và ẩn sau nó, thứ làm nên bước nhảy vọt đó chính là Học Sâu (Deep Learning).
 
@@ -96,6 +97,9 @@ Bước 04: Deploy mô hình
 Bước 05: Tiếp tục thu thập dữ liệu, củng cố mô hình
 
 Và đây chính là một machine learning pipeline
+
 |![Machine Learning Pipeline](https://www.kindpng.com/picc/m/346-3460588_machine-learning-pipeline-diagram-hd-png-download.png)|
-|:--:| 
+|:--:|
 | Machine Learning Pipeline |
+
+
