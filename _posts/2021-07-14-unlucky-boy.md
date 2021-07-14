@@ -1,5 +1,5 @@
 ---
-title: Unluckt boy? 
+title: Unlucky boy? 
 categories:
   - MyLife
 
