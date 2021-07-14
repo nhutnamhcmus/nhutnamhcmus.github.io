@@ -11,10 +11,11 @@ Vâng thằng nhóc ấy là mình đây. Ở mục này, mình sẽ cố gắng
 
 Email report: lenam.fithcmus@gmail.com/ namele1232000@gmail.com
 
-# Nhập môn Máy học 
+# Nhập môn Máy học
+
 Đây là một môn học rất thú vị, cung cấp cho người mới vào học, tìm hiểu về Học máy một cái nhìn tổng quan nhất về nó, chúng ta sẽ tìm hiểu xem Máy học thực chất là gì, liệu rằng máy tính vô tri vô giác kia có thể học được không? Nếu có, thì chúng học như thế nào, làm sao chúng ta có thể dạy chúng học và giúp chúng học tốt hơn!
 
-- [Chủ đề 00: Máy học là gì?](/intro2ml/topic00-intro-ml)
+- [Chủ đề 00: Máy học là gì?](/intro2ml/topic00-intro-ml){:target="_blank"}
     - Vấn đề của việc "học"
 - Chủ đề 01: Máy tính có thể học được hay không?
     - Việc học có khả thi hay không?
@@ -45,9 +46,11 @@ Email report: lenam.fithcmus@gmail.com/ namele1232000@gmail.com
 # Note of An Introduction to Statistical Learning with Applications in R
 
 ## Statistical Learning - Học thống kê
+
 - Lab: Introduction to R
 
 ## Linear Regression - Hồi quy tuyến tính
+
 - Mô hình hồi quy tuyến tính đơn giản
 - Mô hình hồi quy tuyến tính bội
 - Một số chú ý với mô hình hồi quy tuyến tính
@@ -55,6 +58,7 @@ Email report: lenam.fithcmus@gmail.com/ namele1232000@gmail.com
 - Lab: Linear Regression
 
 ## Classification - Phân lớp
+
 - Tổng quan về phân lớp
 - Mô hình hồi quy logistic
 - Linear Discriminant Analysis
@@ -62,11 +66,13 @@ Email report: lenam.fithcmus@gmail.com/ namele1232000@gmail.com
 - Lab: Logistic Regression, LDA, QDA, KNN
 
 ## Resampling Methods
+
 - Cross-Validation
 - Boostrap
 - Lab: Cross-Validation and the Bootstrap
 
 ## Linear Model Selection and Regularization
+
 - Subset Selection
 - Shrinkage Methods
 - Dimension Reduction Methods
@@ -76,6 +82,7 @@ Email report: lenam.fithcmus@gmail.com/ namele1232000@gmail.com
 - Lab 3: PCR and PLS Regression
 
 ## Moving Beyond Linearity
+
 - Polynomial Regression
 - Step Functions
 - Basis Functions
@@ -147,5 +154,5 @@ Email report: lenam.fithcmus@gmail.com/ namele1232000@gmail.com
 - \[4\] Khoa học dữ liệu - Khanh's Blog
 - \[5\] Python implementation of algorithms from Russell And Norvig's "Artificial Intelligence - A Modern Approach"
 - \[6\] Christopher Olah's Blog
-- \[7\] [Khoa Học Dữ Liệu Blog](https://khoahocdulieu.github.io/home) - Giáo sư Nhật, giáo sư về khoa học dữ liệu, học máy, và thống kê tại đại học Texas tại Austin 
+- \[7\] [Khoa Học Dữ Liệu Blog](https://khoahocdulieu.github.io/home){:target="_blank"} - Giáo sư Nhật, giáo sư về khoa học dữ liệu, học máy, và thống kê tại đại học Texas tại Austin 
 

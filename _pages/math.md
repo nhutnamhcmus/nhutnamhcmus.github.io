@@ -7,6 +7,7 @@ toc: true
 ---
 
 ## Nhập môn Thống kê
+
 - Lý thuyết tập hợp
 - Lý thuyết xác suất
 - Lý thuyết biến ngẫu nhiên
@@ -23,6 +24,7 @@ toc: true
 - One-Way Analysis of Variance
 
 ## Ứng dụng thống kê
+
 - Linear Regression
 - Correlation, Geometry
 - Multiple Linear Regression
@@ -36,6 +38,7 @@ toc: true
 - Linear Mixed-Effects Regression 
 
 ## Phân tích thống kê dữ liệu nhiều biến
+
 - Ôn tập Đại số Tuyến tính
     - Các khái niệm cơ bản
     - Các phép tính cơ bản
@@ -88,6 +91,7 @@ toc: true
     - Non-Hierarchical Clustering
 
 ## Thống kê phi tham số
+
 - Ước lượng mật độ và phân phối
 - Nonparametric One-Sample Location Tests
 - Nonparametric K-Sample Location Tests 
@@ -100,6 +104,7 @@ toc: true
 - Multiple and Generalized Nonparametric Regression
 
 ## Toán ứng dụng và Thống kê
+
 - Vector và các phép toán
     - Vector
     - Chuẩn và khoảng cách
@@ -133,4 +138,6 @@ toc: true
     - Least squares data fitting
 
 - Xích Markov
+
+# Sách và tài liệu tham khảo
 
