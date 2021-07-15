@@ -93,11 +93,13 @@ Email report: lenam.fithcmus@gmail.com/ namele1232000@gmail.com
 - Lab: Non-linear Modeling
 
 ## Tree-based Methods
+
 - Decision Trees
 - Bagging, Random Forests, Boosting
 - Lab: Decision Trees
 
 ## Support Vector Machines - Máy hỗ trợ vectors
+
 - Maximal Margin Classifier
 - Support Vector Classifiers
 - Support Vector Machines
@@ -105,6 +107,7 @@ Email report: lenam.fithcmus@gmail.com/ namele1232000@gmail.com
 - Lab: Support Vector Machines
 
 ## Unsupersived Learning - Học không giám sát
+
 - Principal Components Analysis
 - Clustering Methods
 - Lab 1: Principal Components Analysis
