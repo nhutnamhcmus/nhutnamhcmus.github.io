@@ -6,6 +6,8 @@ last_modified_at: 2020-12-4
 toc: true
 ---
 
+<p><img src="{{site.baseurl}}/assets/img/math.jpg"></p>
+
 ## Nhập môn Thống kê
 
 - Lý thuyết tập hợp

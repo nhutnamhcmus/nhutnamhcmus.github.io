@@ -5,6 +5,7 @@ title: "Programming - DSA - Coding"
 last_modified_at: 2020-12-4
 toc: true
 ---
+<p><img src="{{site.baseurl}}/assets/img/algorithms.png"></p>
 
 ## eBook for study about Data Structures and Algorithms
 
@@ -40,3 +41,5 @@ c) Graph Algorithms
 
 - Cracking the Coding Interview 4th edition
 - Programming Interviews Exposed 3rd
+
+## Articles

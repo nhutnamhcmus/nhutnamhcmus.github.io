@@ -6,6 +6,8 @@ last_modified_at: 2020-12-4
 toc: true
 ---
 
+<p><img src="{{site.baseurl}}/assets/img/vds.jpg"></p>
+
 Về Visual Data Science (Khoa học Dữ liệu Thị Giác), bao gồm Visual Data (2D-3D Points, Image, Video), Math & Statistics & Machine Learning, Computer Graphics & Image Processing & Computer Vision
 
 Về Đồ họa máy tính (Computer Graphics) nghiên cứu về cơ sở toán học, các thuật toán cũng như các kĩ thuật để cho phép tạo, hiển thị và điều khiển hình ảnh trên màn hình máy tính. Đồ họa máy tính có liên quan ít nhiều đến một số lĩnh vực như đại số, hình học giải tích, hình học họa hình, quang học,... và kĩ thuật máy tính, đặc biệt là chế tạo phần cứng (các loại màn hình, các thiết bị xuất, nhập, các vỉ mạch đồ họa...). Đồ họa máy tính còn được hiểu là một nhánh nghiênc cứu các phương pháp và kĩ thuật tạo hình ảnh từ các mô hình toán học mô tả các đối tượng hay dữ liệu lấy được từ các đối tượng trong thực tế, hay hiểu đơn giản là "tái tạo lại thế giới thực tại.

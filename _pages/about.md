@@ -2,6 +2,7 @@
 layout: single
 permalink: /about/
 last_modified_at: 2020-12-4
+author_profile: true
 toc: true
 comments: true
 ---

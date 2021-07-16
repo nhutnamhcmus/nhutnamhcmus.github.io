@@ -6,63 +6,120 @@ last_modified_at: 2020-12-4
 toc: true
 ---
 
-# Tổng quan về ngôn ngữ tự nhiên
+<p><img src="{{site.baseurl}}/assets/img/nlp.png"></p>
 
-# Ngôn ngữ hình thức
+## Tổng quan về ngôn ngữ tự nhiên
 
-# Phân tích cú pháp
+(Updating)
 
-# Các bài toán
+## Ngôn ngữ hình thức
 
-## Tiền xử lý
+(Updating)
 
-## Phân tích hình thái
+## Phân tích cú pháp
 
-## Phân đoạn từ
+(Updating)
 
-## Phân tích ngữ pháp
+## Các bài toán
 
-## Gán nhãn ngữ nghĩa
+### Tiền xử lý
 
-# Một số ứng dụng
+(Updating)
 
-# Note of Coursera Course
+### Phân tích hình thái
 
-## Basic Text Processing
+(Updating)
 
-## Edit Distance
+### Phân đoạn từ
 
-## Language Modeling
+(Updating)
 
-## Spelling Correction
+### Phân tích ngữ pháp
 
-## Text Classification and Naive Bayes
+(Updating)
 
-## Sentiment Analysis
+### Gán nhãn ngữ nghĩa
 
-## Discriminants Classifiers
+(Updating)
 
-## Maximum Entropy Classifiers
+## Một số ứng dụng
 
-## Named entity recognition and Maximum Entropy Sequence Models
+(Updating)
 
-## Relation Extraction
+## Note of Coursera Course
 
-## Advanced Maximum Entropy Models
+### Basic Text Processing
 
-## POS Tagging
+(Updating)
 
-## Parsing Introduction
+### Edit Distance
 
-## Probabilistic Parsing
+(Updating)
 
-## Lexicalized Parsing
+### Language Modeling
 
-## Dependcy Parsing 
+(Updating)
 
-## Information Retrieval
+### Spelling Correction
 
-## Ranked Information Retrieval
+(Updating)
 
-## Semantics
+### Text Classification and Naive Bayes
 
+(Updating)
+
+### Sentiment Analysis
+
+(Updating)
+
+### Discriminants Classifiers
+
+(Updating)
+
+### Maximum Entropy Classifiers
+
+(Updating)
+
+### Named entity recognition and Maximum Entropy Sequence Models
+
+(Updating)
+
+### Relation Extraction
+
+(Updating)
+
+### Advanced Maximum Entropy Models
+
+(Updating)
+
+### POS Tagging
+
+(Updating)
+
+### Parsing Introduction
+
+(Updating)
+
+### Probabilistic Parsing
+
+(Updating)
+
+### Lexicalized Parsing
+
+(Updating)
+
+### Dependcy Parsing
+
+(Updating)
+
+### Information Retrieval
+
+(Updating)
+
+### Ranked Information Retrieval
+
+(Updating)
+
+### Semantics
+
+(Updating)

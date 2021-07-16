@@ -179,9 +179,11 @@ X = \begin{bmatrix}
 $$
 
 Bước 01: Tính toán vector trung bình
-$$\text{mean\_vector} = [6.9, 3.5, 5.1]$$
+
+$$\text{mean_vector} = [6.9, 3.5, 5.1]$$
 
 Bước 02: Xây dựng ma trận hiệp phương sai
+
 $$
 C = \begin{bmatrix}
 2.32 & 1.61 & -0.43\\
@@ -191,20 +193,23 @@ C = \begin{bmatrix}
 $$
 
 Bước 03: Phân rã ma trận hiệp phương sai thành những cặp vector riêng và giá trị riêng
+
 $$w_1 = [-0.7012, 0.7075, 0.0841], \lambda_1 = 0.7499$$
 $$w_2 = [0.699, 0.6609, 0.2731], \lambda_2 = 3.6761$$
 $$w_3 = [-0.1376, -0.2505, 0.9583], \lambda_3 = 8.2739$$
 
-Bước 04: Sắp xếp các giá trị riêng theo thứ tự giảm dần tương ứng với các vectors riêng 
+Bước 04: Sắp xếp các giá trị riêng theo thứ tự giảm dần tương ứng với các vectors riêng
+
 $$w_3 = [-0.1376, -0.2505, 0.9583], \lambda_3 = 8.2739$$
 $$w_2 = [0.699, 0.6609, 0.2731], \lambda_2 = 3.6761$$
 $$w_1 = [-0.7012, 0.7075, 0.0841], \lambda_1 = 0.7499$$
 
 Bước 05: Chọn $k=2$ vector riêng mà tương ứng với $k$ giá trị riêng lớn nhất, với $k$ là số chiều đặc trưng mới  ($k \leq D$). Ở đây mình sẽ có một cách chọn k sao cho hợp lý với cách dựa vào threshold
+
 $$w_3 = [-0.1376, -0.2505, 0.9583], \lambda_3 = 8.2739$$
 $$w_2 = [0.699, 0.6609, 0.2731], \lambda_2 = 3.6761$$
 
-Bước 06: Xây dưng ma trận hình chiếu $W$ từ $k=2$ vector riêng 
+Bước 06: Xây dưng ma trận hình chiếu $W$ từ $k=2$ vector riêng
 
 $$W = 
 \begin{bmatrix}
@@ -240,7 +245,10 @@ $$
 0.1 & -2.9 & -0.9 & 1.1 & 1.1 & 0.1 & -1.9 & 2.1 & 0.1 & 1.1\\
 0.5 & -2.5 & -0.5 & 2.5 & 1.5 & -1.5 & -0.5 & 1.5 & 0.5 & -1.5\\
 -2.1 & 2.9 & -0.1 & -4.1 & -1.9 & -3.9 & -2.1 & 2.9 & -0.1 & -3.1\\
-\end{bmatrix} =
+\end{bmatrix}
+$$
+$$
+ =
 \begin{bmatrix}
 -2.15 & 3.80 & 0.15 & -4.7 & 1.29 & 4.09 & -1.63 & 2.11 & -0.23 & -2.75\\
 -0.17 & -2.89 & -0.999 & 1.30 & 2.28 & 0.14 & -2.23 & 3.25 & 0.37 & -1.07\\
@@ -250,6 +258,8 @@ $$
 Tính $\hat{X}$
 
 $$\hat{X} = W^T.Y + \bar{X}
+$$
+$$
 =\begin{bmatrix}
 7.075 & 4.3582 & 6.1891 & 8.4573 & 8.3152 & 6.4364 & 5.5633 & 8.8818 & 7.1931 & 6.5306\\
 3.9244 & 0.6388 & 2.8094 & 5.5389 & 4.6822 & 2.5682 & 2.4320 & 5.1129 & 3.8054 & 3.4814 \\

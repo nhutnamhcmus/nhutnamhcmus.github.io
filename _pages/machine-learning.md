@@ -5,6 +5,9 @@ title: "Machine learning - Học Máy"
 last_modified_at: 2020-12-4
 toc: true
 ---
+
+<p><img src="{{site.baseurl}}/assets/img/ml.jpg"></p>
+
 Một số chủ đề khi tập tành Machine Learning của một thằng nhóc không Chuyên về Toán, nhưng cậu ta lại thích nó đến mức bỏ tất cả để vào học Khoa học Máy tính.
 
 Vâng thằng nhóc ấy là mình đây. Ở mục này, mình sẽ cố gắng trình bày tất cả những gì tìm hiểu được, học được về lĩnh vực Máy học và trình bày nó theo cách mà mình hiểu. Có thể còn mắc phải nhiều lỗi, nhiều sai sót, nếu người đọc có phát hiện, hãy gửi về mail cho mình nhé. ;) 
