@@ -21,6 +21,14 @@ A collection of knowledge graph papers, codes, and reading notes.
 
 A curated list of Knowledge Graph related learning materials, databases, tools and other resources
 
+3)Github Repo: [knowledge-graph-learning](https://github.com/BrambleXu/knowledge-graph-learning) by BrambleXu
+
+A curated list of awesome knowledge graph tutorials, projects and communities. Both Chinese and English resource are listed in language respectively. Please feel free to pull requests to add links.
+
+4)Github Repo: [awesome-knowledge-graph](https://github.com/totogo/awesome-knowledge-graph) by totgo
+
+A curated list of Knowledge Graph related learning materials, databases, tools and other resources
+
 ## Research resources for Complex Network
 
 Just a list of collection links, ebooks or papers for study in Complex Network
@@ -33,6 +41,11 @@ b) Ebooks
 - Complex Networks and Their applications Volume 1 by Janusz Kacprzyk, Polish Academy of Sciences, Warsaw, Poland
 - Complex Networks and Their applications Volume 2 by Janusz Kacprzyk, Polish Academy of Sciences, Warsaw, Poland
 - Introduction to Graph Neural Networks by Zhiyuan Liu and Jie Zhou (Tsinghua University)
+
+c) Github Repositories
+
+- [Complex network research resources collation and basic knowledge learning](https://github.com/LiuChuang0059/Complex-Network) by LiuChuang0059
+- [Complex-Networks-Papers](https://github.com/manjunath5496/Complex-Networks-Papers) collected by manjunath5496
 
 ## Common categories in Knowledge Graph
 

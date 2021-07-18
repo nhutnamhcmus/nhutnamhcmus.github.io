@@ -30,14 +30,14 @@ toc: true
 - Linear Regression
 - Correlation, Geometry
 - Multiple Linear Regression
-- Polynomials and Interactions 
-- Model Selection and Diagnostics 
-- One-Way Analysis of Variance 
-- Factorial and Unbalanced ANOVA 
-- Analysis of Covariance 
-- Effect Size and Power Analysis 
-- Generalized Linear Models 
-- Linear Mixed-Effects Regression 
+- Polynomials and Interactions
+- Model Selection and Diagnostics
+- One-Way Analysis of Variance
+- Factorial and Unbalanced ANOVA
+- Analysis of Covariance
+- Effect Size and Power Analysis
+- Generalized Linear Models
+- Linear Mixed-Effects Regression
 
 ## Phân tích thống kê dữ liệu nhiều biến
 
@@ -56,22 +56,22 @@ toc: true
 - Suy diễn về vector trung bình
 - So sánh những trung bình đa biến
 - Hồi quy tuyến tính đa biến
-    - Multiple Linear Regression
-    - Multivariate Linear Regression
+    - [Multiple Linear Regression](/msa/linear_regression/multiple_linear_regression)
+    - [Multivariate Linear Regression](/msa/linear_regression/multivariate_linear_regression)
 
-- Phân tích thành phần chính
+- [Phân tích thành phần chính](/msa/pca/principal_components_analysis)
     - Động lực nghiên cứu khoa học và phát biểu bài toán
     - Thành phần chính quần thể (Population principal components)
     - Thành phần mẫu (Sample principal components)
-    - Ứng dụng (Applications of principal components) 
+    - Ứng dụng (Applications of principal components)
 
-- Phân tích dữ kiện
+- [Phân tích dữ kiện](/msa/fa/factor_analysis)
     - Động lực nghiên cứu khoa học và phát biểu bài toán
-    - Mô hình 
+    - Mô hình
     - Oblique Factor Model
     - Confirmatory Factor Analysis
 
-- Phân tích tương quan chính tắc
+- [Phân tích tương quan chính tắc](/msa/cca/canonical_correlation_analysis)
     - Động lực nghiên cứu khoa học và phát biểu bài toán
 - Phân lớp
     - Động lực nghiên cứu khoa học và phát biểu bài toán
@@ -96,10 +96,10 @@ toc: true
 
 - Ước lượng mật độ và phân phối
 - Nonparametric One-Sample Location Tests
-- Nonparametric K-Sample Location Tests 
+- Nonparametric K-Sample Location Tests
 - Nonparametric Dispersion and Equality Tests
-- Nonparametric Independence Tests 
-- Nonparametric Hypothesis Tests 
+- Nonparametric Independence Tests
+- Nonparametric Hypothesis Tests
 - Nonparametric Bootstrap Sampling
 - Nonparametric Regression
 - Smoothing Spline Regression
@@ -142,4 +142,3 @@ toc: true
 - Xích Markov
 
 # Sách và tài liệu tham khảo
-
